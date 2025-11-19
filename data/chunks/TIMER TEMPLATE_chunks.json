@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "text": "Timer Template\n\nThis template will help you understand the role of a Timer. You are free to get as creative as you can in terms of timing and presenting the reports based on the theme.\n\nYour Duties as Timer: \n\nTime every speaker who goes up on the stage\n(Including all the Role Takers i.e - SAA, Presiding Officer, GE, ToD, TTM based on time allotted to them in the agenda)\nReadout your role quickly in about 45 - 60 seconds when called upon by the GE before the start of the first segment.\nProvide a brief report by stating any time disqualifications (if any) when called upon by the GE towards the end.\n\nTimings:\n\nIce Breakers: 4-6 mins\n\nOther speeches: 5-7 mins. However, some speeches may have varied timings, contact speaker for the same.\n\nTable topics: 1-2 mins \n\nEvaluations: 2-3 mins\n\nNote: +/- 30 seconds buffer to all the speakers to meet time qualification",
+    "metadata": {
+      "source": "..\\data\\extracted\\TIMER TEMPLATE.txt"
+    }
+  },
+  {
+    "id": 1,
+    "text": "Evaluations: 2-3 mins\n\nNote: +/- 30 seconds buffer to all the speakers to meet time qualification\n\nAfter they cross the 30 seconds buffer. They get disqualified for voting. However, time disqualification doesn’t affect a speaker’s speech purpose or completion.\n\nGuidelines to be read when asked to introduce your role during the meeting:\n\n“Greetings Mr./Madam Toastmaster, fellow Toastmasters, and guests. \nAs Timer, I will time the Table Topics® speakers, formal speeches, and evaluations. I will also alert each speaker of the time they have left, using the green, yellow, and red cards, which denote specific times remaining. \n\nTable Topics Speakers should limit their remarks to no more than 2 minutes.\n • At 1 minute, I will raise the green card. • At 1 minute and 30 seconds, I will raise the yellow card. • At 2 minutes, I will raise the red card.",
+    "metadata": {
+      "source": "..\\data\\extracted\\TIMER TEMPLATE.txt"
+    }
+  },
+  {
+    "id": 2,
+    "text": "Those giving speeches should limit their remarks to their specific speech times, Ice Breaker speeches should be 4-6 minutes in length. \n• At 4 minutes, I will raise the green card. • At 5 minutes, I will raise the yellow card. • At 6 minutes, I will raise the red card. \n\nMost other speeches should be 5-7 minutes in length. \n• At 5 minutes, I will raise the green card. • At 6 minutes, I will raise the yellow card. • At 7 minutes, I will raise the red card. \n\nThe individual evaluations should be between 2-3 minutes. \n• At 2 minutes, I will raise the green card. • At 2 minutes and 30 seconds, I will raise the yellow card. • At 3 minutes, I will raise the red card. \n\nThank you Mr./Madam Toastmaster.\n\nWhen the GE calls you to give out the timer report:\n\nMention time taken by speakers, table topic speakers, and evaluators. Point out clearly if anybody got disqualified. You can give them a suggestion or two on how they can be on time.",
+    "metadata": {
+      "source": "..\\data\\extracted\\TIMER TEMPLATE.txt"
+    }
+  },
+  {
+    "id": 3,
+    "text": "Note: Time limit is 1 minute to read out the timer role initially and in the end, 2 mins to give your timer report!",
+    "metadata": {
+      "source": "..\\data\\extracted\\TIMER TEMPLATE.txt"
+    }
+  }
+]
