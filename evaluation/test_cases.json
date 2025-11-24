@@ -1,0 +1,55 @@
+[
+    {
+      "id": 1,
+      "query": "What is the time limit for a Table Topics speech?",
+      "relevant_global_ids": [669, 298]
+    },
+    {
+      "id": 2,
+      "query": "What are the rules of humerous speech contest?",
+      "relevant_global_ids": [116, 117]
+    },
+    {
+        "id": 3,
+        "query": "Who decides word of the day?",
+        "relevant_global_ids": [634, 342]
+    },
+    {
+        "id": 4,
+        "query": "What is the eligibility to take part in speech contests?",
+        "relevant_global_ids": [19,20]
+    },
+    {
+        "id": 5,
+        "query": "What is the role of TMOD?",
+        "relevant_global_ids": [658, 659, 670, 671, 672, 673, 674, 675]
+    }
+    {
+        "id": 6,
+        "query": "What can I do differently as Ah counter?",
+        "relevant_global_ids": [332, 334, 337, 339]
+    },
+    {
+        "id": 7,
+        "query": "What is the role of the club's Vice President Education (VPE)?",
+        "relevant_global_ids": [12, 13, 14]
+    },
+    {
+        "id": 8,
+        "query": "What are the responsibilities of a Club secretary?",
+        "relevant_global_ids": [12, 13, 14]
+    },
+    {
+        "id": 9,
+        "query": "What are the evaluation criteria in a Toastmasters speech contest?",
+        "relevant_global_ids": [12, 13, 14]
+    },
+    {
+        "id": 10,
+        "query": "What is the process to become a Toastmasters club officer?",
+        "relevant_global_ids": [12, 13, 14]
+    }
+    
+
+  ]
+  

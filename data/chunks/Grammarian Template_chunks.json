@@ -8,13 +8,34 @@
   },
   {
     "id": 1,
-    "text": "Guidelines to be read when asked to introduce your role during the meeting:\nMr./Madam Toastmaster, fellow Toastmasters, and guests. As Grammarian, it is my responsibility to pay close attention to all speakers, listening carefully to their language usage. I’ll take note of any improper language, as well as any outstanding words, quotes, sayings, or thoughts. As Grammarian, it is also my duty to introduce the Word of the Day. • For today’s meeting, the Word is ____, which means __________. [Display the Word of the Day at the front of the room.] • An example of using the word is: ________________. Each speaker is encouraged to use the Word of the Day. • I will give the Grammarian’s report when called upon during the meeting and also report on the usage of the Word of the Day. \nThank you, Mr./Madam Toastmaster.”\n\nWhen the GE calls you to give out the Grammarian report:",
+    "text": "Guidelines to be read when asked to introduce your role during the meeting:",
     "metadata": {
       "source": "..\\data\\extracted\\Grammarian Template.txt"
     }
   },
   {
     "id": 2,
+    "text": "Mr./Madam Toastmaster, fellow Toastmasters, and guests. As Grammarian, it is my responsibility to pay close attention to all speakers, listening carefully to their language usage. I’ll take note of any improper language, as well as any outstanding words, quotes, sayings, or thoughts. As Grammarian, it is also my duty to introduce the Word of the Day. • For today’s meeting, the Word is ____, which means __________. [Display the Word of the Day at the front of the room",
+    "metadata": {
+      "source": "..\\data\\extracted\\Grammarian Template.txt"
+    }
+  },
+  {
+    "id": 3,
+    "text": ".] • An example of using the word is: ________________. Each speaker is encouraged to use the Word of the Day. • I will give the Grammarian’s report when called upon during the meeting and also report on the usage of the Word of the Day.",
+    "metadata": {
+      "source": "..\\data\\extracted\\Grammarian Template.txt"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Thank you, Mr./Madam Toastmaster.”",
+    "metadata": {
+      "source": "..\\data\\extracted\\Grammarian Template.txt"
+    }
+  },
+  {
+    "id": 5,
     "text": "When the GE calls you to give out the Grammarian report:\n\nA.  Read out the names of all those who used the word of the day. \nB. Mention improper usages and give suggestions for proper usage. Do not specify anyone's name. \nC. Read out the good usages, quotes, etc again without names of who said it.\n\nNote: \nTime limit is 1 minute to read out grammarian role initially and in the end, 2 mins to give your grammarian report",
     "metadata": {
       "source": "..\\data\\extracted\\Grammarian Template.txt"

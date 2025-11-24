@@ -1,0 +1,31 @@
+version: 1.0
+
+# -----------------------------
+#  RAG PIPELINE SETTINGS
+# -----------------------------
+rag_pipeline:
+  # Paths
+  index_path: "../data/vectordb/vector_index.faiss"
+  metadata_path: "../data/vectordb/metadata.json"
+  chunks_path: "../data/chunks"
+  core_knowledge_path: "../data/static/core_knowledge.json"
+  
+  # Models
+  embedding_model: "all-MiniLM-L6-v2"
+  reranker_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  llm_model: "phi3"
+  
+  # Retrieval settings
+  top_k_retrieve: 10    # Number of chunks to retrieve initially
+  
+  # Reranking settings
+  reranker:
+    enable: true
+    top_k: 4            # Number of top chunks to use after reranking
+  
+  # Chunking settings (used during ingestion, but kept here for reference)
+  chunk_size: 400       # Default chunk size in characters
+  chunk_overlap: 50     # Default chunk overlap in characters
+  
+  # Verbose output
+  verbose: false

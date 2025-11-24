@@ -1,28 +1,56 @@
 [
   {
     "id": 0,
-    "text": "TOD/TMOD Template\n\nThis template will help you understand the role of a ToD and the procedure of the meeting. You are free to get as creative as you can in terms of explaining the theme, introducing people, etc.\nAlways remember, as a host, your duty is not to be the star of the meeting, it is to make every person who comes to speak feel like a superstar. You are their cheerleader for the meeting.\n\nBefore the meeting:\nThink of an interesting theme that is most relevant to your audience and the situation. \nFor example: if you are a TOD when Independence day is around the corner then have a theme that relates more to it. But don’t make it cliche. Give it your own unique touch. “The fight for Freedom” “Freedom is a state of mind” “Freedom Quest” “The unsung heroes”\n\nGet in touch with the VPE to know about the role takers and speakers for the meeting way prior.",
+    "text": "TOD/TMOD Template\n\nThis template will help you understand the role of a ToD and the procedure of the meeting. You are free to get as creative as you can in terms of explaining the theme, introducing people, etc.\nAlways remember, as a host, your duty is not to be the star of the meeting, it is to make every person who comes to speak feel like a superstar. You are their cheerleader for the meeting.",
     "metadata": {
       "source": "..\\data\\extracted\\ToD Template.txt"
     }
   },
   {
     "id": 1,
-    "text": "Get in touch with the VPE to know about the role takers and speakers for the meeting way prior.\n\nTry to speak to every person you will introduce and ask them a few questions about the theme which can help you prepare their introduction. \nWhat does freedom mean to them?\nIf you were a freedom fighter who would you be?\nWhen was the last time you felt completely free?\nAlong with this, the introduction can include what they currently do and any achievements or accolades. \n\nPrepare a story or a 2 mins intro to the theme to speak about your opinion and why you chose it.\n\n\nDuring the meeting:\n\nA. Accept control from the President or Presiding Officer and thank him/her for the introduction.\n\nB. TOD Address: \n\nIntroduction of the Theme in your own unique way either talk about what inspired you about the theme or a story related to the theme.\n\nExplain the flow of the meeting i.e., Prepared Speeches + Table Topics + Evaluations",
+    "text": "Before the meeting:\nThink of an interesting theme that is most relevant to your audience and the situation. \nFor example: if you are a TOD when Independence day is around the corner then have a theme that relates more to it. But don’t make it cliche. Give it your own unique touch. “The fight for Freedom” “Freedom is a state of mind” “Freedom Quest” “The unsung heroes”\n\nGet in touch with the VPE to know about the role takers and speakers for the meeting way prior.",
     "metadata": {
       "source": "..\\data\\extracted\\ToD Template.txt"
     }
   },
   {
     "id": 2,
-    "text": "Explain the flow of the meeting i.e., Prepared Speeches + Table Topics + Evaluations \n\nC. Introduce the GE (in your own unique way). Invite him/her to speak and the GE will introduce the TAG team.\n\nD. Thank the GE. Start the 1st segment - Prepared Speeches\n\nE. Prepared Speeches Segment: \n\nStart by introducing the speaker’s project and level \n“Our first speaker today is attempting his level 1 project 2.”\n\nIntroduce the speaker’s evaluator (in your own unique way) and ask them to read out their speaker’s guidelines.\n“To evaluate him/her we have someone who loves reading books and is a business analyst. Can we have Toastmaster ….(name) to read out the guidelines for our first speaker”\n\nIntroduce the Speaker (in your own unique way)  \n“Thank you, it’s time to call our speaker who is a sports enthusiast, he follows every single game in football and can charm you with his knowledge. Let me call upon the stage”",
+    "text": "Try to speak to every person you will introduce and ask them a few questions about the theme which can help you prepare their introduction. \nWhat does freedom mean to them?\nIf you were a freedom fighter who would you be?\nWhen was the last time you felt completely free?\nAlong with this, the introduction can include what they currently do and any achievements or accolades. \n\nPrepare a story or a 2 mins intro to the theme to speak about your opinion and why you chose it.\n\n\nDuring the meeting:",
     "metadata": {
       "source": "..\\data\\extracted\\ToD Template.txt"
     }
   },
   {
     "id": 3,
-    "text": "Format to call the speaker on stage - TM Name: Speech Title... Speech Title: TM Name\n“Toastmaster …(name) Wings of fire (speech title) Wings of fire Toastmaster … (name) Let’s welcome him/her with a huge round of applause”\n\nAfter the speech: Pick out an interesting line or statement from each of the speeches or compliment them for their speech in order to have a smooth transition between speakers. Move on to introducing the next speaker.\n\nF. Table Topics Segment: \n\nConclude the Prepared speeches segment \n\nIntroduce the Table Topic Master (in your own unique way)\n\nInvite the TTM to take up Table Topics Segment\n\nG. Evaluation Segment:\n\nConclude the Table Topics Segment \n\nInvite the General Evaluator to take up the Evaluations Segment\n\nH. Sign off as the host by giving one takeaway for the audience or any last few words — from the theme or the meeting and hand over the control back to the President/Presiding Officer.",
+    "text": "During the meeting:\n\nA. Accept control from the President or Presiding Officer and thank him/her for the introduction.\n\nB. TOD Address: \n\nIntroduction of the Theme in your own unique way either talk about what inspired you about the theme or a story related to the theme.\n\nExplain the flow of the meeting i.e., Prepared Speeches + Table Topics + Evaluations \n\nC. Introduce the GE (in your own unique way). Invite him/her to speak and the GE will introduce the TAG team.",
+    "metadata": {
+      "source": "..\\data\\extracted\\ToD Template.txt"
+    }
+  },
+  {
+    "id": 4,
+    "text": "D. Thank the GE. Start the 1st segment - Prepared Speeches\n\nE. Prepared Speeches Segment: \n\nStart by introducing the speaker’s project and level \n“Our first speaker today is attempting his level 1 project 2.”\n\nIntroduce the speaker’s evaluator (in your own unique way) and ask them to read out their speaker’s guidelines.\n“To evaluate him/her we have someone who loves reading books and is a business analyst. Can we have Toastmaster ….(name) to read out the guidelines for our first speaker”",
+    "metadata": {
+      "source": "..\\data\\extracted\\ToD Template.txt"
+    }
+  },
+  {
+    "id": 5,
+    "text": "Introduce the Speaker (in your own unique way)  \n“Thank you, it’s time to call our speaker who is a sports enthusiast, he follows every single game in football and can charm you with his knowledge. Let me call upon the stage”\n\nFormat to call the speaker on stage - TM Name: Speech Title... Speech Title: TM Name\n“Toastmaster …(name) Wings of fire (speech title) Wings of fire Toastmaster … (name) Let’s welcome him/her with a huge round of applause”",
+    "metadata": {
+      "source": "..\\data\\extracted\\ToD Template.txt"
+    }
+  },
+  {
+    "id": 6,
+    "text": "After the speech: Pick out an interesting line or statement from each of the speeches or compliment them for their speech in order to have a smooth transition between speakers. Move on to introducing the next speaker.\n\nF. Table Topics Segment: \n\nConclude the Prepared speeches segment \n\nIntroduce the Table Topic Master (in your own unique way)\n\nInvite the TTM to take up Table Topics Segment\n\nG. Evaluation Segment:\n\nConclude the Table Topics Segment",
+    "metadata": {
+      "source": "..\\data\\extracted\\ToD Template.txt"
+    }
+  },
+  {
+    "id": 7,
+    "text": "Conclude the Table Topics Segment \n\nInvite the General Evaluator to take up the Evaluations Segment\n\nH. Sign off as the host by giving one takeaway for the audience or any last few words — from the theme or the meeting and hand over the control back to the President/Presiding Officer.",
     "metadata": {
       "source": "..\\data\\extracted\\ToD Template.txt"
     }

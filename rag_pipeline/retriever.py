@@ -1,5 +1,6 @@
 import faiss
 import json
+import numpy as np
 
 class Retriever:
     def __init__(self, index_path, metadata_path, model, chunks_path):
@@ -10,8 +11,12 @@ class Retriever:
         self.chunks_path = chunks_path
         
     def retrieve(self, query, top_k=5):
-        vec = self.model.encode([query])
-        distances, ids = self.index.search(vec, top_k)
+        query_emb = self.model.encode([query])
+        faiss.normalize_L2(query_emb)
+        similarities, ids = self.index.search(query_emb, top_k)
+
+        print("\n\n ids:",ids)
+        print("\n\n similarities:",similarities)
         
         results = []
         for i, idx in enumerate(ids[0]):
@@ -23,7 +28,8 @@ class Retriever:
             results.append({
                 "text": self.metadata[idx]["source_file"],
                 "chunk_id": self.metadata[idx]["chunk_id"],
-                "distance": float(distances[0][i]),
+                "global_id": self.metadata[idx]["global_id"],
+                "score": float(similarities[0][i]),
                 "text_info": text
             })
         return results

@@ -1,35 +1,63 @@
 [
   {
     "id": 0,
-    "text": "Table Topic Master/Topicsmaster - TTM Template\n\nThis template will help you understand the role of a TTM and the procedure of the meeting. You are free to get as creative as you can in terms of explaining the role.\n\nIt is ideal to base topics on the theme of the meeting \n\nTable topics master\nTTM is the second segment of the meeting. Your role starts when the TOD hands over the stage to you.\n \nWhen the TOD introduces you to conduct the Table Topics session:\nThank the TOD for the introduction and reiterate you are the table topic master for the day.",
+    "text": "Table Topic Master/Topicsmaster - TTM Template\n\nThis template will help you understand the role of a TTM and the procedure of the meeting. You are free to get as creative as you can in terms of explaining the role.\n\nIt is ideal to base topics on the theme of the meeting",
     "metadata": {
       "source": "..\\data\\extracted\\TTM Template.txt"
     }
   },
   {
     "id": 1,
-    "text": "Explain what is TT, including timing each person will have to speak\nWhy do we have TTM? (to test our impromptu speaking skills and being spontaneous)\nExplain how it is done (either give a technique or example to show people how it is done)",
+    "text": "Table topics master\nTTM is the second segment of the meeting. Your role starts when the TOD hands over the stage to you.\n \nWhen the TOD introduces you to conduct the Table Topics session:\nThank the TOD for the introduction and reiterate you are the table topic master for the day.",
     "metadata": {
       "source": "..\\data\\extracted\\TTM Template.txt"
     }
   },
   {
     "id": 2,
-    "text": "Explain how it is done (either give a technique or example to show people how it is done)\n“Thank you Toastmaster …(name) for the unique introduction. Hello everyone, my name is … and I am your table topic master. You must be wondering what table topics is? The table topics segment in a Toastmasters meeting is an impromptu speaking segment where I will be reading out a topic and calling out one of the members from the audience to speak on it spontaneously. The time limit is 1-2 mins so for you to qualify for voting you need to speak a minimum of 1 minute and a maximum of 2 mins. The segment helps you think on your feet and makes you more spontaneous. One pro tip to crack the table topics is to use an example whenever you get a topic that will help you not run out of your words. Hope to see to ace this. Are we all ready for our first topic?",
+    "text": "Explain what is TT, including timing each person will have to speak\nWhy do we have TTM? (to test our impromptu speaking skills and being spontaneous)\nExplain how it is done (either give a technique or example to show people how it is done)",
     "metadata": {
       "source": "..\\data\\extracted\\TTM Template.txt"
     }
   },
   {
     "id": 3,
-    "text": "Who to call as table topics speaker?\nGive a chance to those members who haven’t got stage time at all in the meeting.\n Preferably, first speaker should be a Toastmaster who has done TT before to show others how it is done.\nAsk the guests if someone wants to volunteer to speak on stage, if not pick them randomly. (Take consent of first-timers - Ideal to ask them over a message before the TTM session if they are comfortable speaking)\nIf no-one else is left, then pick on Toastmasters who played the least role in the meeting like TAG team or SAA or Evaluators or External Toastmasters.\nAvoid calling prepared speakers or TOD or GE as they get the most stage time in the meeting.",
+    "text": "“Thank you Toastmaster …(name) for the unique introduction. Hello everyone, my name is … and I am your table topic master. You must be wondering what table topics is? The table topics segment in a Toastmasters meeting is an impromptu speaking segment where I will be reading out a topic and calling out one of the members from the audience to speak on it spontaneously. The time limit is 1-2 mins so for you to qualify for voting you need to speak a minimum of 1 minute and a maximum of 2 mins",
     "metadata": {
       "source": "..\\data\\extracted\\TTM Template.txt"
     }
   },
   {
     "id": 4,
-    "text": "How to conduct the session?\nAnnounce the topic.\nCall out a person to speak on the topic\nRepeat the topic again and then hand over the stage to them.\nAfter each speaker is done speaking, talk about how you felt while listening to them or appreciate them or pick one interesting thing that you learnt from them and then move on to the next speaker for a smooth transition.\nIdeal to call 6 - 8 table topics in a usual meeting.\nAfter the session, thank the audience and hand over the stage back to TOD.\n\nNote: \nPlease call Non-role takers first, Don't call the GE, President, SAA, ToD, Speakers, and Evaluators. Call others who didn't get a chance to speak.\nThe first person you call should be someone pretty confident. The reason is it motivates others, especially the guest to seem like it’s easy.",
+    "text": ". The segment helps you think on your feet and makes you more spontaneous. One pro tip to crack the table topics is to use an example whenever you get a topic that will help you not run out of your words. Hope to see to ace this. Are we all ready for our first topic?",
+    "metadata": {
+      "source": "..\\data\\extracted\\TTM Template.txt"
+    }
+  },
+  {
+    "id": 5,
+    "text": "Who to call as table topics speaker?\nGive a chance to those members who haven’t got stage time at all in the meeting.\n Preferably, first speaker should be a Toastmaster who has done TT before to show others how it is done.\nAsk the guests if someone wants to volunteer to speak on stage, if not pick them randomly. (Take consent of first-timers - Ideal to ask them over a message before the TTM session if they are comfortable speaking)",
+    "metadata": {
+      "source": "..\\data\\extracted\\TTM Template.txt"
+    }
+  },
+  {
+    "id": 6,
+    "text": "If no-one else is left, then pick on Toastmasters who played the least role in the meeting like TAG team or SAA or Evaluators or External Toastmasters.\nAvoid calling prepared speakers or TOD or GE as they get the most stage time in the meeting.",
+    "metadata": {
+      "source": "..\\data\\extracted\\TTM Template.txt"
+    }
+  },
+  {
+    "id": 7,
+    "text": "How to conduct the session?\nAnnounce the topic.\nCall out a person to speak on the topic\nRepeat the topic again and then hand over the stage to them.\nAfter each speaker is done speaking, talk about how you felt while listening to them or appreciate them or pick one interesting thing that you learnt from them and then move on to the next speaker for a smooth transition.\nIdeal to call 6 - 8 table topics in a usual meeting.\nAfter the session, thank the audience and hand over the stage back to TOD.",
+    "metadata": {
+      "source": "..\\data\\extracted\\TTM Template.txt"
+    }
+  },
+  {
+    "id": 8,
+    "text": "Note: \nPlease call Non-role takers first, Don't call the GE, President, SAA, ToD, Speakers, and Evaluators. Call others who didn't get a chance to speak.\nThe first person you call should be someone pretty confident. The reason is it motivates others, especially the guest to seem like it’s easy.",
     "metadata": {
       "source": "..\\data\\extracted\\TTM Template.txt"
     }

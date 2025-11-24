@@ -15,8 +15,8 @@ def chunk_text(path):
         return None
 
     splitter = RecursiveCharacterTextSplitter(
-    chunk_size=1000,      # each chunk ~1000 characters
-    chunk_overlap=100,    # overlap to preserve context
+    chunk_size=500,      # each chunk ~1000 characters
+    chunk_overlap=50,    # overlap to preserve context ~100
     separators=["\n\n", "\n", ".", " "]  # use paragraph breaks when possible
     )
 

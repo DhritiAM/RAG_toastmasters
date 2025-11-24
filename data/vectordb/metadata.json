@@ -1,826 +1,4052 @@
 [
   {
-    "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 0
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 0,
+    "category": "Contest",
+    "global_id": 0
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 1,
+    "category": "Contest",
+    "global_id": 1
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 2,
+    "category": "Contest",
+    "global_id": 2
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 3,
+    "category": "Contest",
+    "global_id": 3
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 4,
+    "category": "Contest",
+    "global_id": 4
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 5,
+    "category": "Contest",
+    "global_id": 5
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 6,
+    "category": "Contest",
+    "global_id": 6
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 7,
+    "category": "Contest",
+    "global_id": 7
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 8,
+    "category": "Contest",
+    "global_id": 8
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 9,
+    "category": "Contest",
+    "global_id": 9
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 10,
+    "category": "Contest",
+    "global_id": 10
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 11,
+    "category": "Contest",
+    "global_id": 11
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 12,
+    "category": "Contest",
+    "global_id": 12
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 13,
+    "category": "Contest",
+    "global_id": 13
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 14,
+    "category": "Contest",
+    "global_id": 14
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 15,
+    "category": "Contest",
+    "global_id": 15
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 16,
+    "category": "Contest",
+    "global_id": 16
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 17,
+    "category": "Contest",
+    "global_id": 17
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 18,
+    "category": "Contest",
+    "global_id": 18
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 19,
+    "category": "Contest",
+    "global_id": 19
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 20,
+    "category": "Contest",
+    "global_id": 20
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 21,
+    "category": "Contest",
+    "global_id": 21
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 22,
+    "category": "Contest",
+    "global_id": 22
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 23,
+    "category": "Contest",
+    "global_id": 23
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 24,
+    "category": "Contest",
+    "global_id": 24
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 25,
+    "category": "Contest",
+    "global_id": 25
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 26,
+    "category": "Contest",
+    "global_id": 26
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 27,
+    "category": "Contest",
+    "global_id": 27
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 28,
+    "category": "Contest",
+    "global_id": 28
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 29,
+    "category": "Contest",
+    "global_id": 29
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 30,
+    "category": "Contest",
+    "global_id": 30
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 31,
+    "category": "Contest",
+    "global_id": 31
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 32,
+    "category": "Contest",
+    "global_id": 32
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 33,
+    "category": "Contest",
+    "global_id": 33
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 34,
+    "category": "Contest",
+    "global_id": 34
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 35,
+    "category": "Contest",
+    "global_id": 35
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 36,
+    "category": "Contest",
+    "global_id": 36
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 37,
+    "category": "Contest",
+    "global_id": 37
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 38,
+    "category": "Contest",
+    "global_id": 38
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 39,
+    "category": "Contest",
+    "global_id": 39
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 40,
+    "category": "Contest",
+    "global_id": 40
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 41,
+    "category": "Contest",
+    "global_id": 41
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 42,
+    "category": "Contest",
+    "global_id": 42
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 43,
+    "category": "Contest",
+    "global_id": 43
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 44,
+    "category": "Contest",
+    "global_id": 44
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 45,
+    "category": "Contest",
+    "global_id": 45
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 46,
+    "category": "Contest",
+    "global_id": 46
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 47,
+    "category": "Contest",
+    "global_id": 47
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 48,
+    "category": "Contest",
+    "global_id": 48
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 49,
+    "category": "Contest",
+    "global_id": 49
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 50,
+    "category": "Contest",
+    "global_id": 50
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 51,
+    "category": "Contest",
+    "global_id": 51
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 52,
+    "category": "Contest",
+    "global_id": 52
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 53,
+    "category": "Contest",
+    "global_id": 53
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 54,
+    "category": "Contest",
+    "global_id": 54
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 55,
+    "category": "Contest",
+    "global_id": 55
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 56,
+    "category": "Contest",
+    "global_id": 56
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 57,
+    "category": "Contest",
+    "global_id": 57
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 58,
+    "category": "Contest",
+    "global_id": 58
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 59,
+    "category": "Contest",
+    "global_id": 59
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 60,
+    "category": "Contest",
+    "global_id": 60
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 61,
+    "category": "Contest",
+    "global_id": 61
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 62,
+    "category": "Contest",
+    "global_id": 62
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 63,
+    "category": "Contest",
+    "global_id": 63
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 64,
+    "category": "Contest",
+    "global_id": 64
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 65,
+    "category": "Contest",
+    "global_id": 65
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 66,
+    "category": "Contest",
+    "global_id": 66
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 67,
+    "category": "Contest",
+    "global_id": 67
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 68,
+    "category": "Contest",
+    "global_id": 68
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 69,
+    "category": "Contest",
+    "global_id": 69
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 70,
+    "category": "Contest",
+    "global_id": 70
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 71,
+    "category": "Contest",
+    "global_id": 71
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 72,
+    "category": "Contest",
+    "global_id": 72
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 73,
+    "category": "Contest",
+    "global_id": 73
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 74,
+    "category": "Contest",
+    "global_id": 74
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 75,
+    "category": "Contest",
+    "global_id": 75
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 76,
+    "category": "Contest",
+    "global_id": 76
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 77,
+    "category": "Contest",
+    "global_id": 77
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 78,
+    "category": "Contest",
+    "global_id": 78
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 79,
+    "category": "Contest",
+    "global_id": 79
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 80,
+    "category": "Contest",
+    "global_id": 80
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 81,
+    "category": "Contest",
+    "global_id": 81
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 82,
+    "category": "Contest",
+    "global_id": 82
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 83,
+    "category": "Contest",
+    "global_id": 83
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 84,
+    "category": "Contest",
+    "global_id": 84
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 85,
+    "category": "Contest",
+    "global_id": 85
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 86,
+    "category": "Contest",
+    "global_id": 86
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 87,
+    "category": "Contest",
+    "global_id": 87
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 88,
+    "category": "Contest",
+    "global_id": 88
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 89,
+    "category": "Contest",
+    "global_id": 89
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 90,
+    "category": "Contest",
+    "global_id": 90
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 91,
+    "category": "Contest",
+    "global_id": 91
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 92,
+    "category": "Contest",
+    "global_id": 92
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 93,
+    "category": "Contest",
+    "global_id": 93
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 94,
+    "category": "Contest",
+    "global_id": 94
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 95,
+    "category": "Contest",
+    "global_id": 95
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 96,
+    "category": "Contest",
+    "global_id": 96
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 97,
+    "category": "Contest",
+    "global_id": 97
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 98,
+    "category": "Contest",
+    "global_id": 98
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 99,
+    "category": "Contest",
+    "global_id": 99
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 100,
+    "category": "Contest",
+    "global_id": 100
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 101,
+    "category": "Contest",
+    "global_id": 101
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 102,
+    "category": "Contest",
+    "global_id": 102
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 103,
+    "category": "Contest",
+    "global_id": 103
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 104,
+    "category": "Contest",
+    "global_id": 104
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 105,
+    "category": "Contest",
+    "global_id": 105
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 106,
+    "category": "Contest",
+    "global_id": 106
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 107,
+    "category": "Contest",
+    "global_id": 107
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 108,
+    "category": "Contest",
+    "global_id": 108
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 109,
+    "category": "Contest",
+    "global_id": 109
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 110,
+    "category": "Contest",
+    "global_id": 110
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 111,
+    "category": "Contest",
+    "global_id": 111
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 112,
+    "category": "Contest",
+    "global_id": 112
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 113,
+    "category": "Contest",
+    "global_id": 113
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 114,
+    "category": "Contest",
+    "global_id": 114
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 115,
+    "category": "Contest",
+    "global_id": 115
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 116,
+    "category": "Contest",
+    "global_id": 116
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 117,
+    "category": "Contest",
+    "global_id": 117
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 118,
+    "category": "Contest",
+    "global_id": 118
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 119,
+    "category": "Contest",
+    "global_id": 119
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 120,
+    "category": "Contest",
+    "global_id": 120
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 121,
+    "category": "Contest",
+    "global_id": 121
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 122,
+    "category": "Contest",
+    "global_id": 122
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 123,
+    "category": "Contest",
+    "global_id": 123
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 124,
+    "category": "Contest",
+    "global_id": 124
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 125,
+    "category": "Contest",
+    "global_id": 125
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 126,
+    "category": "Contest",
+    "global_id": 126
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 127,
+    "category": "Contest",
+    "global_id": 127
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 128,
+    "category": "Contest",
+    "global_id": 128
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 129,
+    "category": "Contest",
+    "global_id": 129
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 130,
+    "category": "Contest",
+    "global_id": 130
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 131,
+    "category": "Contest",
+    "global_id": 131
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 132,
+    "category": "Contest",
+    "global_id": 132
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 133,
+    "category": "Contest",
+    "global_id": 133
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 134,
+    "category": "Contest",
+    "global_id": 134
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 135,
+    "category": "Contest",
+    "global_id": 135
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 136,
+    "category": "Contest",
+    "global_id": 136
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 137,
+    "category": "Contest",
+    "global_id": 137
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 138,
+    "category": "Contest",
+    "global_id": 138
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 139,
+    "category": "Contest",
+    "global_id": 139
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 140,
+    "category": "Contest",
+    "global_id": 140
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 141,
+    "category": "Contest",
+    "global_id": 141
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 142,
+    "category": "Contest",
+    "global_id": 142
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 143,
+    "category": "Contest",
+    "global_id": 143
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 144,
+    "category": "Contest",
+    "global_id": 144
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 145,
+    "category": "Contest",
+    "global_id": 145
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 146,
+    "category": "Contest",
+    "global_id": 146
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 147,
+    "category": "Contest",
+    "global_id": 147
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 148,
+    "category": "Contest",
+    "global_id": 148
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 149,
+    "category": "Contest",
+    "global_id": 149
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 150,
+    "category": "Contest",
+    "global_id": 150
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 151,
+    "category": "Contest",
+    "global_id": 151
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 152,
+    "category": "Contest",
+    "global_id": 152
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 153,
+    "category": "Contest",
+    "global_id": 153
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 154,
+    "category": "Contest",
+    "global_id": 154
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 155,
+    "category": "Contest",
+    "global_id": 155
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 156,
+    "category": "Contest",
+    "global_id": 156
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 157,
+    "category": "Contest",
+    "global_id": 157
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 158,
+    "category": "Contest",
+    "global_id": 158
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 159,
+    "category": "Contest",
+    "global_id": 159
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 160,
+    "category": "Contest",
+    "global_id": 160
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 161,
+    "category": "Contest",
+    "global_id": 161
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 162,
+    "category": "Contest",
+    "global_id": 162
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 163,
+    "category": "Contest",
+    "global_id": 163
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 164,
+    "category": "Contest",
+    "global_id": 164
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 165,
+    "category": "Contest",
+    "global_id": 165
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 166,
+    "category": "Contest",
+    "global_id": 166
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 167,
+    "category": "Contest",
+    "global_id": 167
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 168,
+    "category": "Contest",
+    "global_id": 168
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 169,
+    "category": "Contest",
+    "global_id": 169
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 170,
+    "category": "Contest",
+    "global_id": 170
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 171,
+    "category": "Contest",
+    "global_id": 171
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 172,
+    "category": "Contest",
+    "global_id": 172
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 173,
+    "category": "Contest",
+    "global_id": 173
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 174,
+    "category": "Contest",
+    "global_id": 174
+  },
+  {
+    "source_file": "1171-speech-contest-rulebook_chunks.json",
+    "chunk_id": 175,
+    "category": "Contest",
+    "global_id": 175
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 176
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 177
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 178
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 179
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 4,
+    "category": "Generic",
+    "global_id": 180
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 5,
+    "category": "Generic",
+    "global_id": 181
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 6,
+    "category": "Generic",
+    "global_id": 182
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 7,
+    "category": "Generic",
+    "global_id": 183
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 8,
+    "category": "Generic",
+    "global_id": 184
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 9,
+    "category": "Generic",
+    "global_id": 185
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 10,
+    "category": "Generic",
+    "global_id": 186
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 11,
+    "category": "Generic",
+    "global_id": 187
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 12,
+    "category": "Generic",
+    "global_id": 188
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 13,
+    "category": "Generic",
+    "global_id": 189
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 14,
+    "category": "Generic",
+    "global_id": 190
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 15,
+    "category": "Generic",
+    "global_id": 191
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 16,
+    "category": "Generic",
+    "global_id": 192
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 17,
+    "category": "Generic",
+    "global_id": 193
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 18,
+    "category": "Generic",
+    "global_id": 194
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 19,
+    "category": "Generic",
+    "global_id": 195
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 20,
+    "category": "Generic",
+    "global_id": 196
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 21,
+    "category": "Generic",
+    "global_id": 197
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 22,
+    "category": "Generic",
+    "global_id": 198
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 23,
+    "category": "Generic",
+    "global_id": 199
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 24,
+    "category": "Generic",
+    "global_id": 200
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 25,
+    "category": "Generic",
+    "global_id": 201
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 26,
+    "category": "Generic",
+    "global_id": 202
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 27,
+    "category": "Generic",
+    "global_id": 203
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 28,
+    "category": "Generic",
+    "global_id": 204
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 29,
+    "category": "Generic",
+    "global_id": 205
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 30,
+    "category": "Generic",
+    "global_id": 206
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 31,
+    "category": "Generic",
+    "global_id": 207
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 32,
+    "category": "Generic",
+    "global_id": 208
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 33,
+    "category": "Generic",
+    "global_id": 209
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 34,
+    "category": "Generic",
+    "global_id": 210
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 35,
+    "category": "Generic",
+    "global_id": 211
+  },
+  {
+    "source_file": "277A-creating-an-introduction_chunks.json",
+    "chunk_id": 36,
+    "category": "Generic",
+    "global_id": 212
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 213
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 214
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 215
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 4
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 216
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 5
+    "chunk_id": 4,
+    "category": "Generic",
+    "global_id": 217
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 6
+    "chunk_id": 5,
+    "category": "Generic",
+    "global_id": 218
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 7
+    "chunk_id": 6,
+    "category": "Generic",
+    "global_id": 219
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 8
+    "chunk_id": 7,
+    "category": "Generic",
+    "global_id": 220
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 9
+    "chunk_id": 8,
+    "category": "Generic",
+    "global_id": 221
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 10
+    "chunk_id": 9,
+    "category": "Generic",
+    "global_id": 222
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 11
+    "chunk_id": 10,
+    "category": "Generic",
+    "global_id": 223
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 12
+    "chunk_id": 11,
+    "category": "Generic",
+    "global_id": 224
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 13
+    "chunk_id": 12,
+    "category": "Generic",
+    "global_id": 225
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 14
+    "chunk_id": 13,
+    "category": "Generic",
+    "global_id": 226
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 15
+    "chunk_id": 14,
+    "category": "Generic",
+    "global_id": 227
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 16
+    "chunk_id": 15,
+    "category": "Generic",
+    "global_id": 228
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 17
+    "chunk_id": 16,
+    "category": "Generic",
+    "global_id": 229
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 18
+    "chunk_id": 17,
+    "category": "Generic",
+    "global_id": 230
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 19
+    "chunk_id": 18,
+    "category": "Generic",
+    "global_id": 231
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 20
+    "chunk_id": 19,
+    "category": "Generic",
+    "global_id": 232
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 21
+    "chunk_id": 20,
+    "category": "Generic",
+    "global_id": 233
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 22
+    "chunk_id": 21,
+    "category": "Generic",
+    "global_id": 234
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 23
+    "chunk_id": 22,
+    "category": "Generic",
+    "global_id": 235
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 24
+    "chunk_id": 23,
+    "category": "Generic",
+    "global_id": 236
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 25
+    "chunk_id": 24,
+    "category": "Generic",
+    "global_id": 237
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 26
+    "chunk_id": 25,
+    "category": "Generic",
+    "global_id": 238
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 27
+    "chunk_id": 26,
+    "category": "Generic",
+    "global_id": 239
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 28
+    "chunk_id": 27,
+    "category": "Generic",
+    "global_id": 240
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 29
+    "chunk_id": 28,
+    "category": "Generic",
+    "global_id": 241
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 30
+    "chunk_id": 29,
+    "category": "Generic",
+    "global_id": 242
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 31
+    "chunk_id": 30,
+    "category": "Generic",
+    "global_id": 243
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 32
+    "chunk_id": 31,
+    "category": "Generic",
+    "global_id": 244
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 33
+    "chunk_id": 32,
+    "category": "Generic",
+    "global_id": 245
   },
   {
     "source_file": "8077-paths-and-core-competencies_chunks.json",
-    "chunk_id": 34
+    "chunk_id": 33,
+    "category": "Generic",
+    "global_id": 246
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 34,
+    "category": "Generic",
+    "global_id": 247
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 35,
+    "category": "Generic",
+    "global_id": 248
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 36,
+    "category": "Generic",
+    "global_id": 249
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 37,
+    "category": "Generic",
+    "global_id": 250
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 38,
+    "category": "Generic",
+    "global_id": 251
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 39,
+    "category": "Generic",
+    "global_id": 252
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 40,
+    "category": "Generic",
+    "global_id": 253
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 41,
+    "category": "Generic",
+    "global_id": 254
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 42,
+    "category": "Generic",
+    "global_id": 255
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 43,
+    "category": "Generic",
+    "global_id": 256
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 44,
+    "category": "Generic",
+    "global_id": 257
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 45,
+    "category": "Generic",
+    "global_id": 258
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 46,
+    "category": "Generic",
+    "global_id": 259
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 47,
+    "category": "Generic",
+    "global_id": 260
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 48,
+    "category": "Generic",
+    "global_id": 261
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 49,
+    "category": "Generic",
+    "global_id": 262
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 50,
+    "category": "Generic",
+    "global_id": 263
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 51,
+    "category": "Generic",
+    "global_id": 264
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 52,
+    "category": "Generic",
+    "global_id": 265
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 53,
+    "category": "Generic",
+    "global_id": 266
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 54,
+    "category": "Generic",
+    "global_id": 267
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 55,
+    "category": "Generic",
+    "global_id": 268
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 56,
+    "category": "Generic",
+    "global_id": 269
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 57,
+    "category": "Generic",
+    "global_id": 270
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 58,
+    "category": "Generic",
+    "global_id": 271
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 59,
+    "category": "Generic",
+    "global_id": 272
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 60,
+    "category": "Generic",
+    "global_id": 273
+  },
+  {
+    "source_file": "8077-paths-and-core-competencies_chunks.json",
+    "chunk_id": 61,
+    "category": "Generic",
+    "global_id": 274
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 275
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 276
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 277
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 278
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 4,
+    "category": "Generic",
+    "global_id": 279
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 5,
+    "category": "Generic",
+    "global_id": 280
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 6,
+    "category": "Generic",
+    "global_id": 281
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 7,
+    "category": "Generic",
+    "global_id": 282
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 8,
+    "category": "Generic",
+    "global_id": 283
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 9,
+    "category": "Generic",
+    "global_id": 284
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 10,
+    "category": "Generic",
+    "global_id": 285
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 11,
+    "category": "Generic",
+    "global_id": 286
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 12,
+    "category": "Generic",
+    "global_id": 287
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 13,
+    "category": "Generic",
+    "global_id": 288
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 14,
+    "category": "Generic",
+    "global_id": 289
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 15,
+    "category": "Generic",
+    "global_id": 290
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 16,
+    "category": "Generic",
+    "global_id": 291
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 17,
+    "category": "Generic",
+    "global_id": 292
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 18,
+    "category": "Generic",
+    "global_id": 293
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 19,
+    "category": "Generic",
+    "global_id": 294
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 20,
+    "category": "Generic",
+    "global_id": 295
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 21,
+    "category": "Generic",
+    "global_id": 296
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 22,
+    "category": "Generic",
+    "global_id": 297
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 23,
+    "category": "Generic",
+    "global_id": 298
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 24,
+    "category": "Generic",
+    "global_id": 299
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 25,
+    "category": "Generic",
+    "global_id": 300
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 26,
+    "category": "Generic",
+    "global_id": 301
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 27,
+    "category": "Generic",
+    "global_id": 302
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 28,
+    "category": "Generic",
+    "global_id": 303
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 29,
+    "category": "Generic",
+    "global_id": 304
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 30,
+    "category": "Generic",
+    "global_id": 305
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 31,
+    "category": "Generic",
+    "global_id": 306
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 32,
+    "category": "Generic",
+    "global_id": 307
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 33,
+    "category": "Generic",
+    "global_id": 308
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 34,
+    "category": "Generic",
+    "global_id": 309
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 35,
+    "category": "Generic",
+    "global_id": 310
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 36,
+    "category": "Generic",
+    "global_id": 311
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 37,
+    "category": "Generic",
+    "global_id": 312
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 38,
+    "category": "Generic",
+    "global_id": 313
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 39,
+    "category": "Generic",
+    "global_id": 314
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 40,
+    "category": "Generic",
+    "global_id": 315
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 41,
+    "category": "Generic",
+    "global_id": 316
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 42,
+    "category": "Generic",
+    "global_id": 317
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 43,
+    "category": "Generic",
+    "global_id": 318
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 44,
+    "category": "Generic",
+    "global_id": 319
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 45,
+    "category": "Generic",
+    "global_id": 320
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 46,
+    "category": "Generic",
+    "global_id": 321
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 47,
+    "category": "Generic",
+    "global_id": 322
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 48,
+    "category": "Generic",
+    "global_id": 323
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 49,
+    "category": "Generic",
+    "global_id": 324
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 50,
+    "category": "Generic",
+    "global_id": 325
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 51,
+    "category": "Generic",
+    "global_id": 326
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 52,
+    "category": "Generic",
+    "global_id": 327
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 53,
+    "category": "Generic",
+    "global_id": 328
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 54,
+    "category": "Generic",
+    "global_id": 329
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 55,
+    "category": "Generic",
+    "global_id": 330
+  },
+  {
+    "source_file": "a-toastmaster-wears-many-hats_chunks.json",
+    "chunk_id": 56,
+    "category": "Generic",
+    "global_id": 331
+  },
+  {
+    "source_file": "Ah Counter Template_chunks.json",
+    "chunk_id": 0,
+    "category": "Role",
+    "global_id": 332
+  },
+  {
+    "source_file": "Ah Counter Template_chunks.json",
+    "chunk_id": 1,
+    "category": "Role",
+    "global_id": 333
+  },
+  {
+    "source_file": "Ah Counter Template_chunks.json",
+    "chunk_id": 2,
+    "category": "Role",
+    "global_id": 334
+  },
+  {
+    "source_file": "Ah Counter Template_chunks.json",
+    "chunk_id": 3,
+    "category": "Role",
+    "global_id": 335
+  },
+  {
+    "source_file": "Ah Counter Template_chunks.json",
+    "chunk_id": 4,
+    "category": "Role",
+    "global_id": 336
   },
   {
     "source_file": "Ah Counter_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Role",
+    "global_id": 337
   },
   {
     "source_file": "Ah Counter_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Role",
+    "global_id": 338
   },
   {
     "source_file": "Ah Counter_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Role",
+    "global_id": 339
   },
   {
     "source_file": "anatomy-of-a-toastmasters-meeting_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 340
   },
   {
     "source_file": "anatomy-of-a-toastmasters-meeting_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 341
   },
   {
+    "source_file": "anatomy-of-a-toastmasters-meeting_chunks.json",
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 342
+  },
+  {
+    "source_file": "anatomy-of-a-toastmasters-meeting_chunks.json",
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 343
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 0,
+    "category": "Leadership",
+    "global_id": 344
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 1,
+    "category": "Leadership",
+    "global_id": 345
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 2,
+    "category": "Leadership",
+    "global_id": 346
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 3,
+    "category": "Leadership",
+    "global_id": 347
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 4,
+    "category": "Leadership",
+    "global_id": 348
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 5,
+    "category": "Leadership",
+    "global_id": 349
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 6,
+    "category": "Leadership",
+    "global_id": 350
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 7,
+    "category": "Leadership",
+    "global_id": 351
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 8,
+    "category": "Leadership",
+    "global_id": 352
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 9,
+    "category": "Leadership",
+    "global_id": 353
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 10,
+    "category": "Leadership",
+    "global_id": 354
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 11,
+    "category": "Leadership",
+    "global_id": 355
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 12,
+    "category": "Leadership",
+    "global_id": 356
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 13,
+    "category": "Leadership",
+    "global_id": 357
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 14,
+    "category": "Leadership",
+    "global_id": 358
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 15,
+    "category": "Leadership",
+    "global_id": 359
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 16,
+    "category": "Leadership",
+    "global_id": 360
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 17,
+    "category": "Leadership",
+    "global_id": 361
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 18,
+    "category": "Leadership",
+    "global_id": 362
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 19,
+    "category": "Leadership",
+    "global_id": 363
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 20,
+    "category": "Leadership",
+    "global_id": 364
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 21,
+    "category": "Leadership",
+    "global_id": 365
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 22,
+    "category": "Leadership",
+    "global_id": 366
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 23,
+    "category": "Leadership",
+    "global_id": 367
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 24,
+    "category": "Leadership",
+    "global_id": 368
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 25,
+    "category": "Leadership",
+    "global_id": 369
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 26,
+    "category": "Leadership",
+    "global_id": 370
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 27,
+    "category": "Leadership",
+    "global_id": 371
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 28,
+    "category": "Leadership",
+    "global_id": 372
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 29,
+    "category": "Leadership",
+    "global_id": 373
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 30,
+    "category": "Leadership",
+    "global_id": 374
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 31,
+    "category": "Leadership",
+    "global_id": 375
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 32,
+    "category": "Leadership",
+    "global_id": 376
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 33,
+    "category": "Leadership",
+    "global_id": 377
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 34,
+    "category": "Leadership",
+    "global_id": 378
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 35,
+    "category": "Leadership",
+    "global_id": 379
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 36,
+    "category": "Leadership",
+    "global_id": 380
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 37,
+    "category": "Leadership",
+    "global_id": 381
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 38,
+    "category": "Leadership",
+    "global_id": 382
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 39,
+    "category": "Leadership",
+    "global_id": 383
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 40,
+    "category": "Leadership",
+    "global_id": 384
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 41,
+    "category": "Leadership",
+    "global_id": 385
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 42,
+    "category": "Leadership",
+    "global_id": 386
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 43,
+    "category": "Leadership",
+    "global_id": 387
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 44,
+    "category": "Leadership",
+    "global_id": 388
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 45,
+    "category": "Leadership",
+    "global_id": 389
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 46,
+    "category": "Leadership",
+    "global_id": 390
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 47,
+    "category": "Leadership",
+    "global_id": 391
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 48,
+    "category": "Leadership",
+    "global_id": 392
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 49,
+    "category": "Leadership",
+    "global_id": 393
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 50,
+    "category": "Leadership",
+    "global_id": 394
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 51,
+    "category": "Leadership",
+    "global_id": 395
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 52,
+    "category": "Leadership",
+    "global_id": 396
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 53,
+    "category": "Leadership",
+    "global_id": 397
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 54,
+    "category": "Leadership",
+    "global_id": 398
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 55,
+    "category": "Leadership",
+    "global_id": 399
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 56,
+    "category": "Leadership",
+    "global_id": 400
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 57,
+    "category": "Leadership",
+    "global_id": 401
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 58,
+    "category": "Leadership",
+    "global_id": 402
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 59,
+    "category": "Leadership",
+    "global_id": 403
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 60,
+    "category": "Leadership",
+    "global_id": 404
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 61,
+    "category": "Leadership",
+    "global_id": 405
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 62,
+    "category": "Leadership",
+    "global_id": 406
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 63,
+    "category": "Leadership",
+    "global_id": 407
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 64,
+    "category": "Leadership",
+    "global_id": 408
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 65,
+    "category": "Leadership",
+    "global_id": 409
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 66,
+    "category": "Leadership",
+    "global_id": 410
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 67,
+    "category": "Leadership",
+    "global_id": 411
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 68,
+    "category": "Leadership",
+    "global_id": 412
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 69,
+    "category": "Leadership",
+    "global_id": 413
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 70,
+    "category": "Leadership",
+    "global_id": 414
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 71,
+    "category": "Leadership",
+    "global_id": 415
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 72,
+    "category": "Leadership",
+    "global_id": 416
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 73,
+    "category": "Leadership",
+    "global_id": 417
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 74,
+    "category": "Leadership",
+    "global_id": 418
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 75,
+    "category": "Leadership",
+    "global_id": 419
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 76,
+    "category": "Leadership",
+    "global_id": 420
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 77,
+    "category": "Leadership",
+    "global_id": 421
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 78,
+    "category": "Leadership",
+    "global_id": 422
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 79,
+    "category": "Leadership",
+    "global_id": 423
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 80,
+    "category": "Leadership",
+    "global_id": 424
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 81,
+    "category": "Leadership",
+    "global_id": 425
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 82,
+    "category": "Leadership",
+    "global_id": 426
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 83,
+    "category": "Leadership",
+    "global_id": 427
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 84,
+    "category": "Leadership",
+    "global_id": 428
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 85,
+    "category": "Leadership",
+    "global_id": 429
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 86,
+    "category": "Leadership",
+    "global_id": 430
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 87,
+    "category": "Leadership",
+    "global_id": 431
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 88,
+    "category": "Leadership",
+    "global_id": 432
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 89,
+    "category": "Leadership",
+    "global_id": 433
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 90,
+    "category": "Leadership",
+    "global_id": 434
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 91,
+    "category": "Leadership",
+    "global_id": 435
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 92,
+    "category": "Leadership",
+    "global_id": 436
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 93,
+    "category": "Leadership",
+    "global_id": 437
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 94,
+    "category": "Leadership",
+    "global_id": 438
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 95,
+    "category": "Leadership",
+    "global_id": 439
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 96,
+    "category": "Leadership",
+    "global_id": 440
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 97,
+    "category": "Leadership",
+    "global_id": 441
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 98,
+    "category": "Leadership",
+    "global_id": 442
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 99,
+    "category": "Leadership",
+    "global_id": 443
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 100,
+    "category": "Leadership",
+    "global_id": 444
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 101,
+    "category": "Leadership",
+    "global_id": 445
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 102,
+    "category": "Leadership",
+    "global_id": 446
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 103,
+    "category": "Leadership",
+    "global_id": 447
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 104,
+    "category": "Leadership",
+    "global_id": 448
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 105,
+    "category": "Leadership",
+    "global_id": 449
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 106,
+    "category": "Leadership",
+    "global_id": 450
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 107,
+    "category": "Leadership",
+    "global_id": 451
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 108,
+    "category": "Leadership",
+    "global_id": 452
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 109,
+    "category": "Leadership",
+    "global_id": 453
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 110,
+    "category": "Leadership",
+    "global_id": 454
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 111,
+    "category": "Leadership",
+    "global_id": 455
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 112,
+    "category": "Leadership",
+    "global_id": 456
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 113,
+    "category": "Leadership",
+    "global_id": 457
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 114,
+    "category": "Leadership",
+    "global_id": 458
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 115,
+    "category": "Leadership",
+    "global_id": 459
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 116,
+    "category": "Leadership",
+    "global_id": 460
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 117,
+    "category": "Leadership",
+    "global_id": 461
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 118,
+    "category": "Leadership",
+    "global_id": 462
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 119,
+    "category": "Leadership",
+    "global_id": 463
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 120,
+    "category": "Leadership",
+    "global_id": 464
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 121,
+    "category": "Leadership",
+    "global_id": 465
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 122,
+    "category": "Leadership",
+    "global_id": 466
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 123,
+    "category": "Leadership",
+    "global_id": 467
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 124,
+    "category": "Leadership",
+    "global_id": 468
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 125,
+    "category": "Leadership",
+    "global_id": 469
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 126,
+    "category": "Leadership",
+    "global_id": 470
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 127,
+    "category": "Leadership",
+    "global_id": 471
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 128,
+    "category": "Leadership",
+    "global_id": 472
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 129,
+    "category": "Leadership",
+    "global_id": 473
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 130,
+    "category": "Leadership",
+    "global_id": 474
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 131,
+    "category": "Leadership",
+    "global_id": 475
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 132,
+    "category": "Leadership",
+    "global_id": 476
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 133,
+    "category": "Leadership",
+    "global_id": 477
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 134,
+    "category": "Leadership",
+    "global_id": 478
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 135,
+    "category": "Leadership",
+    "global_id": 479
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 136,
+    "category": "Leadership",
+    "global_id": 480
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 137,
+    "category": "Leadership",
+    "global_id": 481
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 138,
+    "category": "Leadership",
+    "global_id": 482
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 139,
+    "category": "Leadership",
+    "global_id": 483
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 140,
+    "category": "Leadership",
+    "global_id": 484
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 141,
+    "category": "Leadership",
+    "global_id": 485
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 142,
+    "category": "Leadership",
+    "global_id": 486
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 143,
+    "category": "Leadership",
+    "global_id": 487
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 144,
+    "category": "Leadership",
+    "global_id": 488
+  },
+  {
+    "source_file": "club-leadership-handbook_chunks.json",
+    "chunk_id": 145,
+    "category": "Leadership",
+    "global_id": 489
+  },
+  {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 146,
+    "category": "Leadership",
+    "global_id": 490
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 147,
+    "category": "Leadership",
+    "global_id": 491
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 148,
+    "category": "Leadership",
+    "global_id": 492
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 149,
+    "category": "Leadership",
+    "global_id": 493
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 4
+    "chunk_id": 150,
+    "category": "Leadership",
+    "global_id": 494
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 5
+    "chunk_id": 151,
+    "category": "Leadership",
+    "global_id": 495
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 6
+    "chunk_id": 152,
+    "category": "Leadership",
+    "global_id": 496
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 7
+    "chunk_id": 153,
+    "category": "Leadership",
+    "global_id": 497
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 8
+    "chunk_id": 154,
+    "category": "Leadership",
+    "global_id": 498
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 9
+    "chunk_id": 155,
+    "category": "Leadership",
+    "global_id": 499
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 10
+    "chunk_id": 156,
+    "category": "Leadership",
+    "global_id": 500
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 11
+    "chunk_id": 157,
+    "category": "Leadership",
+    "global_id": 501
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 12
+    "chunk_id": 158,
+    "category": "Leadership",
+    "global_id": 502
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 13
+    "chunk_id": 159,
+    "category": "Leadership",
+    "global_id": 503
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 14
+    "chunk_id": 160,
+    "category": "Leadership",
+    "global_id": 504
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 15
+    "chunk_id": 161,
+    "category": "Leadership",
+    "global_id": 505
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 16
+    "chunk_id": 162,
+    "category": "Leadership",
+    "global_id": 506
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 17
+    "chunk_id": 163,
+    "category": "Leadership",
+    "global_id": 507
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 18
+    "chunk_id": 164,
+    "category": "Leadership",
+    "global_id": 508
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 19
+    "chunk_id": 165,
+    "category": "Leadership",
+    "global_id": 509
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 20
+    "chunk_id": 166,
+    "category": "Leadership",
+    "global_id": 510
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 21
+    "chunk_id": 167,
+    "category": "Leadership",
+    "global_id": 511
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 22
+    "chunk_id": 168,
+    "category": "Leadership",
+    "global_id": 512
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 23
+    "chunk_id": 169,
+    "category": "Leadership",
+    "global_id": 513
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 24
+    "chunk_id": 170,
+    "category": "Leadership",
+    "global_id": 514
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 25
+    "chunk_id": 171,
+    "category": "Leadership",
+    "global_id": 515
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 26
+    "chunk_id": 172,
+    "category": "Leadership",
+    "global_id": 516
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 27
+    "chunk_id": 173,
+    "category": "Leadership",
+    "global_id": 517
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 28
+    "chunk_id": 174,
+    "category": "Leadership",
+    "global_id": 518
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 29
+    "chunk_id": 175,
+    "category": "Leadership",
+    "global_id": 519
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 30
+    "chunk_id": 176,
+    "category": "Leadership",
+    "global_id": 520
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 31
+    "chunk_id": 177,
+    "category": "Leadership",
+    "global_id": 521
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 32
+    "chunk_id": 178,
+    "category": "Leadership",
+    "global_id": 522
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 33
+    "chunk_id": 179,
+    "category": "Leadership",
+    "global_id": 523
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 34
+    "chunk_id": 180,
+    "category": "Leadership",
+    "global_id": 524
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 35
+    "chunk_id": 181,
+    "category": "Leadership",
+    "global_id": 525
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 36
+    "chunk_id": 182,
+    "category": "Leadership",
+    "global_id": 526
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 37
+    "chunk_id": 183,
+    "category": "Leadership",
+    "global_id": 527
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 38
+    "chunk_id": 184,
+    "category": "Leadership",
+    "global_id": 528
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 39
+    "chunk_id": 185,
+    "category": "Leadership",
+    "global_id": 529
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 40
+    "chunk_id": 186,
+    "category": "Leadership",
+    "global_id": 530
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 41
+    "chunk_id": 187,
+    "category": "Leadership",
+    "global_id": 531
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 42
+    "chunk_id": 188,
+    "category": "Leadership",
+    "global_id": 532
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 43
+    "chunk_id": 189,
+    "category": "Leadership",
+    "global_id": 533
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 44
+    "chunk_id": 190,
+    "category": "Leadership",
+    "global_id": 534
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 45
+    "chunk_id": 191,
+    "category": "Leadership",
+    "global_id": 535
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 46
+    "chunk_id": 192,
+    "category": "Leadership",
+    "global_id": 536
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 47
+    "chunk_id": 193,
+    "category": "Leadership",
+    "global_id": 537
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 48
+    "chunk_id": 194,
+    "category": "Leadership",
+    "global_id": 538
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 49
+    "chunk_id": 195,
+    "category": "Leadership",
+    "global_id": 539
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 50
+    "chunk_id": 196,
+    "category": "Leadership",
+    "global_id": 540
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 51
+    "chunk_id": 197,
+    "category": "Leadership",
+    "global_id": 541
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 52
+    "chunk_id": 198,
+    "category": "Leadership",
+    "global_id": 542
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 53
+    "chunk_id": 199,
+    "category": "Leadership",
+    "global_id": 543
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 54
+    "chunk_id": 200,
+    "category": "Leadership",
+    "global_id": 544
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 55
+    "chunk_id": 201,
+    "category": "Leadership",
+    "global_id": 545
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 56
+    "chunk_id": 202,
+    "category": "Leadership",
+    "global_id": 546
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 57
+    "chunk_id": 203,
+    "category": "Leadership",
+    "global_id": 547
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 58
+    "chunk_id": 204,
+    "category": "Leadership",
+    "global_id": 548
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 59
+    "chunk_id": 205,
+    "category": "Leadership",
+    "global_id": 549
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 60
+    "chunk_id": 206,
+    "category": "Leadership",
+    "global_id": 550
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 61
+    "chunk_id": 207,
+    "category": "Leadership",
+    "global_id": 551
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 62
+    "chunk_id": 208,
+    "category": "Leadership",
+    "global_id": 552
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 63
+    "chunk_id": 209,
+    "category": "Leadership",
+    "global_id": 553
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 64
+    "chunk_id": 210,
+    "category": "Leadership",
+    "global_id": 554
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 65
+    "chunk_id": 211,
+    "category": "Leadership",
+    "global_id": 555
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 66
+    "chunk_id": 212,
+    "category": "Leadership",
+    "global_id": 556
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 67
+    "chunk_id": 213,
+    "category": "Leadership",
+    "global_id": 557
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 68
+    "chunk_id": 214,
+    "category": "Leadership",
+    "global_id": 558
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 69
+    "chunk_id": 215,
+    "category": "Leadership",
+    "global_id": 559
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 70
+    "chunk_id": 216,
+    "category": "Leadership",
+    "global_id": 560
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 71
+    "chunk_id": 217,
+    "category": "Leadership",
+    "global_id": 561
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 72
+    "chunk_id": 218,
+    "category": "Leadership",
+    "global_id": 562
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 73
+    "chunk_id": 219,
+    "category": "Leadership",
+    "global_id": 563
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 74
+    "chunk_id": 220,
+    "category": "Leadership",
+    "global_id": 564
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 75
+    "chunk_id": 221,
+    "category": "Leadership",
+    "global_id": 565
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 76
+    "chunk_id": 222,
+    "category": "Leadership",
+    "global_id": 566
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 77
+    "chunk_id": 223,
+    "category": "Leadership",
+    "global_id": 567
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 78
+    "chunk_id": 224,
+    "category": "Leadership",
+    "global_id": 568
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 79
+    "chunk_id": 225,
+    "category": "Leadership",
+    "global_id": 569
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 80
+    "chunk_id": 226,
+    "category": "Leadership",
+    "global_id": 570
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 81
+    "chunk_id": 227,
+    "category": "Leadership",
+    "global_id": 571
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 82
+    "chunk_id": 228,
+    "category": "Leadership",
+    "global_id": 572
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 83
+    "chunk_id": 229,
+    "category": "Leadership",
+    "global_id": 573
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 84
+    "chunk_id": 230,
+    "category": "Leadership",
+    "global_id": 574
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 85
+    "chunk_id": 231,
+    "category": "Leadership",
+    "global_id": 575
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 86
+    "chunk_id": 232,
+    "category": "Leadership",
+    "global_id": 576
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 87
+    "chunk_id": 233,
+    "category": "Leadership",
+    "global_id": 577
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 88
+    "chunk_id": 234,
+    "category": "Leadership",
+    "global_id": 578
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 89
+    "chunk_id": 235,
+    "category": "Leadership",
+    "global_id": 579
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 90
+    "chunk_id": 236,
+    "category": "Leadership",
+    "global_id": 580
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 91
+    "chunk_id": 237,
+    "category": "Leadership",
+    "global_id": 581
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 92
+    "chunk_id": 238,
+    "category": "Leadership",
+    "global_id": 582
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 93
+    "chunk_id": 239,
+    "category": "Leadership",
+    "global_id": 583
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 94
+    "chunk_id": 240,
+    "category": "Leadership",
+    "global_id": 584
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 95
+    "chunk_id": 241,
+    "category": "Leadership",
+    "global_id": 585
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 96
+    "chunk_id": 242,
+    "category": "Leadership",
+    "global_id": 586
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 97
+    "chunk_id": 243,
+    "category": "Leadership",
+    "global_id": 587
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 98
+    "chunk_id": 244,
+    "category": "Leadership",
+    "global_id": 588
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 99
+    "chunk_id": 245,
+    "category": "Leadership",
+    "global_id": 589
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 100
+    "chunk_id": 246,
+    "category": "Leadership",
+    "global_id": 590
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 101
+    "chunk_id": 247,
+    "category": "Leadership",
+    "global_id": 591
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 102
+    "chunk_id": 248,
+    "category": "Leadership",
+    "global_id": 592
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 103
+    "chunk_id": 249,
+    "category": "Leadership",
+    "global_id": 593
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 104
+    "chunk_id": 250,
+    "category": "Leadership",
+    "global_id": 594
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 105
+    "chunk_id": 251,
+    "category": "Leadership",
+    "global_id": 595
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 106
+    "chunk_id": 252,
+    "category": "Leadership",
+    "global_id": 596
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 107
+    "chunk_id": 253,
+    "category": "Leadership",
+    "global_id": 597
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 108
+    "chunk_id": 254,
+    "category": "Leadership",
+    "global_id": 598
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 109
+    "chunk_id": 255,
+    "category": "Leadership",
+    "global_id": 599
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 110
+    "chunk_id": 256,
+    "category": "Leadership",
+    "global_id": 600
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 111
+    "chunk_id": 257,
+    "category": "Leadership",
+    "global_id": 601
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 112
+    "chunk_id": 258,
+    "category": "Leadership",
+    "global_id": 602
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 113
+    "chunk_id": 259,
+    "category": "Leadership",
+    "global_id": 603
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 114
+    "chunk_id": 260,
+    "category": "Leadership",
+    "global_id": 604
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 115
+    "chunk_id": 261,
+    "category": "Leadership",
+    "global_id": 605
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 116
+    "chunk_id": 262,
+    "category": "Leadership",
+    "global_id": 606
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 117
+    "chunk_id": 263,
+    "category": "Leadership",
+    "global_id": 607
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 118
+    "chunk_id": 264,
+    "category": "Leadership",
+    "global_id": 608
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 119
+    "chunk_id": 265,
+    "category": "Leadership",
+    "global_id": 609
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 120
+    "chunk_id": 266,
+    "category": "Leadership",
+    "global_id": 610
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 121
+    "chunk_id": 267,
+    "category": "Leadership",
+    "global_id": 611
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 122
+    "chunk_id": 268,
+    "category": "Leadership",
+    "global_id": 612
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 123
+    "chunk_id": 269,
+    "category": "Leadership",
+    "global_id": 613
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 124
+    "chunk_id": 270,
+    "category": "Leadership",
+    "global_id": 614
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 125
+    "chunk_id": 271,
+    "category": "Leadership",
+    "global_id": 615
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 126
+    "chunk_id": 272,
+    "category": "Leadership",
+    "global_id": 616
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 127
+    "chunk_id": 273,
+    "category": "Leadership",
+    "global_id": 617
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 128
+    "chunk_id": 274,
+    "category": "Leadership",
+    "global_id": 618
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 129
+    "chunk_id": 275,
+    "category": "Leadership",
+    "global_id": 619
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 130
+    "chunk_id": 276,
+    "category": "Leadership",
+    "global_id": 620
   },
   {
     "source_file": "club-leadership-handbook_chunks.json",
-    "chunk_id": 131
+    "chunk_id": 277,
+    "category": "Leadership",
+    "global_id": 621
   },
   {
     "source_file": "Evaluation Template_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Eval",
+    "global_id": 622
   },
   {
     "source_file": "Evaluation Template_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Eval",
+    "global_id": 623
   },
   {
     "source_file": "Evaluation Template_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Eval",
+    "global_id": 624
+  },
+  {
+    "source_file": "Evaluation Template_chunks.json",
+    "chunk_id": 3,
+    "category": "Eval",
+    "global_id": 625
+  },
+  {
+    "source_file": "Evaluation Template_chunks.json",
+    "chunk_id": 4,
+    "category": "Eval",
+    "global_id": 626
+  },
+  {
+    "source_file": "Evaluation Template_chunks.json",
+    "chunk_id": 5,
+    "category": "Eval",
+    "global_id": 627
+  },
+  {
+    "source_file": "Evaluation Template_chunks.json",
+    "chunk_id": 6,
+    "category": "Eval",
+    "global_id": 628
   },
   {
     "source_file": "evaluation_script_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Eval",
+    "global_id": 629
   },
   {
     "source_file": "evaluation_script_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Eval",
+    "global_id": 630
   },
   {
     "source_file": "evaluation_script_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Eval",
+    "global_id": 631
   },
   {
     "source_file": "Grammarian Template_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Role",
+    "global_id": 632
   },
   {
     "source_file": "Grammarian Template_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Role",
+    "global_id": 633
   },
   {
     "source_file": "Grammarian Template_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Role",
+    "global_id": 634
+  },
+  {
+    "source_file": "Grammarian Template_chunks.json",
+    "chunk_id": 3,
+    "category": "Role",
+    "global_id": 635
+  },
+  {
+    "source_file": "Grammarian Template_chunks.json",
+    "chunk_id": 4,
+    "category": "Role",
+    "global_id": 636
+  },
+  {
+    "source_file": "Grammarian Template_chunks.json",
+    "chunk_id": 5,
+    "category": "Role",
+    "global_id": 637
   },
   {
     "source_file": "Presiding officer's Address_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Role",
+    "global_id": 638
   },
   {
     "source_file": "Presiding officer's Address_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Role",
+    "global_id": 639
+  },
+  {
+    "source_file": "Presiding officer's Address_chunks.json",
+    "chunk_id": 2,
+    "category": "Role",
+    "global_id": 640
   },
   {
     "source_file": "streamlit_ui_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 641
   },
   {
     "source_file": "streamlit_ui_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 642
   },
   {
     "source_file": "TIMER TEMPLATE_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Role",
+    "global_id": 643
   },
   {
     "source_file": "TIMER TEMPLATE_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Role",
+    "global_id": 644
   },
   {
     "source_file": "TIMER TEMPLATE_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Role",
+    "global_id": 645
   },
   {
     "source_file": "TIMER TEMPLATE_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 3,
+    "category": "Role",
+    "global_id": 646
+  },
+  {
+    "source_file": "TIMER TEMPLATE_chunks.json",
+    "chunk_id": 4,
+    "category": "Role",
+    "global_id": 647
+  },
+  {
+    "source_file": "TIMER TEMPLATE_chunks.json",
+    "chunk_id": 5,
+    "category": "Role",
+    "global_id": 648
+  },
+  {
+    "source_file": "TIMER TEMPLATE_chunks.json",
+    "chunk_id": 6,
+    "category": "Role",
+    "global_id": 649
   },
   {
     "source_file": "toastmasters-international-service-chartv2_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 650
   },
   {
     "source_file": "toastmasters-international-service-chartv2_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 651
   },
   {
     "source_file": "toastmasters-international-service-chartv2_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 652
   },
   {
     "source_file": "toastmasters-international-service-chartv2_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 653
   },
   {
     "source_file": "toastmasters_rag_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 654
   },
   {
     "source_file": "toastmasters_rag_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 655
   },
   {
     "source_file": "toastmasters_rag_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 656
   },
   {
     "source_file": "toastmasters_rag_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 657
   },
   {
     "source_file": "ToD Template_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 658
   },
   {
     "source_file": "ToD Template_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 659
   },
   {
     "source_file": "ToD Template_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 660
   },
   {
     "source_file": "ToD Template_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 661
+  },
+  {
+    "source_file": "ToD Template_chunks.json",
+    "chunk_id": 4,
+    "category": "Generic",
+    "global_id": 662
+  },
+  {
+    "source_file": "ToD Template_chunks.json",
+    "chunk_id": 5,
+    "category": "Generic",
+    "global_id": 663
+  },
+  {
+    "source_file": "ToD Template_chunks.json",
+    "chunk_id": 6,
+    "category": "Generic",
+    "global_id": 664
+  },
+  {
+    "source_file": "ToD Template_chunks.json",
+    "chunk_id": 7,
+    "category": "Generic",
+    "global_id": 665
   },
   {
     "source_file": "TTM Template_chunks.json",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "category": "Generic",
+    "global_id": 666
   },
   {
     "source_file": "TTM Template_chunks.json",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "category": "Generic",
+    "global_id": 667
   },
   {
     "source_file": "TTM Template_chunks.json",
-    "chunk_id": 2
+    "chunk_id": 2,
+    "category": "Generic",
+    "global_id": 668
   },
   {
     "source_file": "TTM Template_chunks.json",
-    "chunk_id": 3
+    "chunk_id": 3,
+    "category": "Generic",
+    "global_id": 669
   },
   {
     "source_file": "TTM Template_chunks.json",
-    "chunk_id": 4
+    "chunk_id": 4,
+    "category": "Generic",
+    "global_id": 670
+  },
+  {
+    "source_file": "TTM Template_chunks.json",
+    "chunk_id": 5,
+    "category": "Generic",
+    "global_id": 671
+  },
+  {
+    "source_file": "TTM Template_chunks.json",
+    "chunk_id": 6,
+    "category": "Generic",
+    "global_id": 672
+  },
+  {
+    "source_file": "TTM Template_chunks.json",
+    "chunk_id": 7,
+    "category": "Generic",
+    "global_id": 673
+  },
+  {
+    "source_file": "TTM Template_chunks.json",
+    "chunk_id": 8,
+    "category": "Generic",
+    "global_id": 674
   }
 ]
