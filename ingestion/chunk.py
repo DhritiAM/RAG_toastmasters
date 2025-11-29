@@ -4,7 +4,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # from langchain_core.documents import Document
 import json
 
-def chunk_text(path):
+def chunk_text(path, chunk_size=1000, chunk_overlap=100):
 
     try:
         loader = TextLoader(path, encoding="utf-8")
@@ -15,9 +15,9 @@ def chunk_text(path):
         return None
 
     splitter = RecursiveCharacterTextSplitter(
-    chunk_size=500,      # each chunk ~1000 characters
-    chunk_overlap=50,    # overlap to preserve context ~100
-    separators=["\n\n", "\n", ".", " "]  # use paragraph breaks when possible
+        chunk_size=chunk_size,      # chunk size in characters
+        chunk_overlap=chunk_overlap,    # overlap to preserve context
+        separators=["\n\n", "\n", ".", " "]  # use paragraph breaks when possible
     )
 
     try:
@@ -27,31 +27,6 @@ def chunk_text(path):
     except Exception as e:
         print("Error splitting documents:", e)
         return None
-
-
-# def chunk_text(path):
-#     try:
-#         # Load text manually and close the file immediately
-#         with open(path, "r", encoding="utf-8") as f:
-#             text = f.read()
-
-#         # Convert to a LangChain Document
-#         documents = [Document(page_content=text, metadata={"source": path})]
-
-#         # Chunk using LangChain’s text splitter
-#         text_splitter = RecursiveCharacterTextSplitter(
-#             chunk_size=1000,
-#             chunk_overlap=100,
-#             separators=["\n\n", "\n", " ", ""]
-#         )
-#         chunks = text_splitter.split_documents(documents)
-
-#         print(f"Loaded and chunked {len(chunks)} pieces from {path}")
-#         return chunks
-
-#     except Exception as e:
-#         print(f"Error chunking {path}: {e}")
-#         return None
 
 
 

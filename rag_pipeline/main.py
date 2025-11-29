@@ -16,7 +16,6 @@ except ImportError:
     from reranker import Reranker
     from query_classifier import BroadQuestionClassifier
     from core_lookup import CoreLookup
-import yaml
 
 
 class RAG:
@@ -119,6 +118,9 @@ class RAG:
         self.metadata_path = metadata_path
         self.chunks_path = chunks_path
         
+        # Load filter configuration
+        filters_config = config.get('filters', {})
+        
         # Initialize embedding model
         if self.verbose:
             print("Loading embedding model...")
@@ -130,14 +132,17 @@ class RAG:
         # Initialize core lookup for broad questions
         self.core_lookup = CoreLookup(filepath=core_knowledge_path)
         
-        # Initialize retriever
+        # Initialize retriever with filters
         if self.verbose:
             print("Initializing retriever...")
+            if filters_config.get('enable', False):
+                print(f"  Metadata filtering enabled (automatic category detection from queries)")
         self.retriever = Retriever(
             index_path=index_path,
             metadata_path=metadata_path,
             model=self.embedding_model,
-            chunks_path=chunks_path
+            chunks_path=chunks_path,
+            filters=filters_config
         )
         
         # Initialize reranker (optional)
@@ -158,11 +163,11 @@ class RAG:
     def _build_context(self, chunks: List[str]) -> str:
         """Build context string from retrieved chunks."""
         return "\n\n".join(chunks)
-    
+
     def _build_rag_prompt(self, query: str, retrieved_chunks: List[str]) -> str:
         """Build the RAG prompt with context and query."""
         context = self._build_context(retrieved_chunks)
-        
+    
         prompt = f"""
         You are a helpful Toastmasters assistant.
 
@@ -179,12 +184,13 @@ class RAG:
         ANSWER:
         """
         return prompt
-    
+
     def query(
         self,
         query: str,
         top_k_retrieve: Optional[int] = None,
-        top_k_rerank: Optional[int] = None
+        top_k_rerank: Optional[int] = None,
+        generate_response: bool = True
     ) -> Dict[str, any]:
         """
         Process a query through the entire RAG pipeline.
@@ -192,15 +198,18 @@ class RAG:
         Args:
             query: The user's question
             top_k_retrieve: Override default top_k for retrieval
-            top_k_rerank: Override default top_k for reranking
+            top_k_rerank: Override default top_k for reranking (or selection)
+            generate_response: Whether to run the LLM generator step
             
         Returns:
             Dictionary containing:
-                - response: The final answer
+                - response: The final answer (or None if generation skipped)
                 - is_broad: Whether it was a broad question
                 - retrieved_chunks: List of retrieved chunks (if not broad)
-                - reranked_chunks: List of reranked chunks (if reranker used)
+                - reranked_chunks: List of reranked chunk texts (if reranker used)
                 - selected_chunks: Chunks ultimately fed to the generator
+                - retrieval_results: Full retrieval metadata list
+                - selected_results: Metadata for selected chunks (post rerank/selection)
                 - reranker_used: Whether reranking was applied
         """
         top_k_retrieve = top_k_retrieve or self.top_k_retrieve
@@ -220,8 +229,13 @@ class RAG:
                 "is_broad": True,
                 "broad_category": broad_category,
                 "retrieved_chunks": None,
-                "reranked_chunks": None
+                "reranked_chunks": None,
+                "selected_chunks": None,
+                "retrieval_results": None,
+                "selected_results": None,
+                "reranker_used": False
             }
+
         else:
             # Handle specific questions with full RAG pipeline
             if self.verbose:
@@ -230,46 +244,68 @@ class RAG:
             # Step 2: Retrieve relevant chunks
             if self.verbose:
                 print(f"Retrieving top {top_k_retrieve} chunks...")
-            results = self.retriever.retrieve(query, top_k=top_k_retrieve)
-            
+            retrieval_results = self.retriever.retrieve(query, top_k=top_k_retrieve)
+
             retrieved_chunks = []
-            for r in results:
+            for r in retrieval_results:
                 retrieved_chunks.append(r["text_info"])
                 if self.verbose:
-                    print(f"  Score: {r['score']:.4f}, Chunk ID: {r['chunk_id']}, Text: {r['text'][:100]}...")
+                    print(f"  Score: {r['score']:.4f}, Global ID: {r['global_id']}, Text: {r['text'][:100]}...")
             
             # Step 3: Rerank chunks (if enabled)
             reranker_used = self.reranker_enabled and self.reranker is not None
             if reranker_used:
                 if self.verbose:
                     print(f"Reranking and selecting top {top_k_rerank} chunks...")
-                reranked = self.reranker.rerank(query, retrieved_chunks)
+                
+                docs = retrieved_chunks
+                reranked_texts = self.reranker.rerank(query, docs)
+                
+                text_to_entries = {}
+                for entry in retrieval_results:
+                    text_to_entries.setdefault(entry["text_info"], []).append(entry)
+                
+                reranked_results = []
+                for doc_text in reranked_texts:
+                    entries = text_to_entries.get(doc_text)
+                    if entries:
+                        reranked_results.append(entries.pop(0))
+                
                 if top_k_rerank is not None:
-                    selected_chunks = reranked[:top_k_rerank]
+                    selected_results = reranked_results[:top_k_rerank]
                 else:
-                    selected_chunks = reranked
+                    selected_results = reranked_results
+                selected_chunks = [r["text_info"] for r in selected_results]
+                reranked_chunks = [r["text_info"] for r in reranked_results]
             else:
                 if self.verbose:
                     print("Reranker disabled; using retrieved chunks directly.")
-                reranked = retrieved_chunks
+                reranked_chunks = None
                 if top_k_rerank is not None:
-                    selected_chunks = retrieved_chunks[:top_k_rerank]
+                    selected_results = retrieval_results[:top_k_rerank]
                 else:
-                    selected_chunks = retrieved_chunks  # use all retrieved chunks when reranker is off
+                    selected_results = retrieval_results
+                selected_chunks = [r["text_info"] for r in selected_results]
             
             # Step 4: Generate response
-            if self.verbose:
-                print("Generating response with LLM...")
-            prompt = self._build_rag_prompt(query, selected_chunks)
-            response = self.generator.generate(prompt)
+            response = None
+            prompt = None
+            if generate_response:
+                if self.verbose:
+                    print("Generating response with LLM...")
+                prompt = self._build_rag_prompt(query, selected_chunks)
+                response = self.generator.generate(prompt)
             
             return {
                 "response": response,
                 "is_broad": False,
                 "broad_category": None,
                 "retrieved_chunks": retrieved_chunks,
-                "reranked_chunks": selected_chunks if reranker_used else None,
+                "reranked_chunks": reranked_chunks,
                 "selected_chunks": selected_chunks,
+                "retrieval_results": retrieval_results,
+                "selected_results": selected_results,
+                "prompt": prompt,
                 "reranker_used": reranker_used
             }
 
@@ -294,4 +330,5 @@ if __name__ == "__main__":
     print("\n" + "="*80)
     if not result["is_broad"]:
         print(f"\nRetrieved {len(result['retrieved_chunks'])} chunks")
-        print(f"Used top {len(result['reranked_chunks'])} chunks after reranking")
+        if result["reranked_chunks"] is not None:
+            print(f"Used top {len(result['reranked_chunks'])} chunks after reranking")

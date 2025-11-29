@@ -14,6 +14,8 @@ def infer_category(query):
         return "Role"
     elif "ah-counter" in q or "ah counter" in q:
         return "Role"
+    elif "all_roles" in q:
+        return "Role"
     elif "presiding officer" in q:
         return "Role"
     elif "leadership" in q:
@@ -24,7 +26,7 @@ def infer_category(query):
         return "Generic"
 
 
-def vectorize_json_folder(folder_path, index_file="vector_index.faiss", metadata_file="metadata.json"):
+def vectorize_json_folder(folder_path, index_file="vector_index.faiss", metadata_file="metadata.json", update_chunks=True):
     # Load a sentence-transformer model
     model = SentenceTransformer("all-MiniLM-L6-v2")  # Fast and compact
 
@@ -37,15 +39,29 @@ def vectorize_json_folder(folder_path, index_file="vector_index.faiss", metadata
             path = os.path.join(folder_path, filename)
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                for chunk in data:
-                    all_texts.append(chunk["text"])
-                    all_metadata.append({
-                        "source_file": filename,
-                        "chunk_id": chunk["id"],
-                        "category": infer_category(filename),
-                        "global_id": g_id
-                    })
-                    g_id += 1
+            
+            # Process chunks for vectorization and update with global_id
+            updated_data = []
+            for chunk in data:
+                # Add global_id to chunk
+                chunk["global_id"] = g_id
+                if update_chunks:
+                    updated_data.append(chunk)
+                
+                # Add to vectorization data
+                all_texts.append(chunk["text"])
+                all_metadata.append({
+                    "source_file": filename,
+                    "chunk_id": chunk["id"],
+                    "category": infer_category(filename),
+                    "global_id": g_id
+                })
+                g_id += 1
+            
+            # Write updated chunks back to file if requested
+            if update_chunks:
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
     # Convert texts to embeddings
     print(f"Generating embeddings for {len(all_texts)} chunks...")

@@ -1,0 +1,546 @@
+[
+  {
+    "id": 1,
+    "query": "What is the time limit for a Table Topics speech?",
+    "relevant_global_ids": [
+      320
+    ]
+  },
+  {
+    "id": 2,
+    "query": "What are the rules of humerous speech contest?",
+    "relevant_global_ids": [
+      279,
+      280
+    ]
+  },
+  {
+    "id": 3,
+    "query": "Who decides word of the day?",
+    "relevant_global_ids": [
+      24,
+      31,
+      186
+    ]
+  },
+  {
+    "id": 4,
+    "query": "What is the eligibility to take part in Toastmasters speech contests?",
+    "relevant_global_ids": [
+      234,
+      235
+    ]
+  },
+  {
+    "id": 5,
+    "query": "What is the role of TMOD?",
+    "relevant_global_ids": [
+      314,
+      315,
+      316,
+      317
+    ]
+  },
+  {
+    "id": 6,
+    "query": "What can I do differently as Ah counter?",
+    "relevant_global_ids": [
+      0,
+      1,
+      2,
+      31
+    ]
+  },
+  {
+    "id": 7,
+    "query": "What is the role of the club's Vice President Education (VPE)?",
+    "relevant_global_ids": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  {
+    "id": 8,
+    "query": "What are the responsibilities of a Club secretary?",
+    "relevant_global_ids": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+//   {
+//     "id": 9,
+//     "query": "What are the evaluation criteria in a Toastmasters speech contest?",
+//     "relevant_global_ids": [
+//       12,
+//       13,
+//       14
+//     ]
+//   },
+ {
+    "id": 9,
+    "query": "What is the role of the General Evaluator?",
+    "relevant_global_ids": [
+      30,
+      17,
+      21
+    ]
+  },
+  {
+    "id": 10,
+    "query": "When you are a topic master, what do you do during the meeting?",
+    "relevant_global_ids": [
+      14,
+      15
+    ]
+  },
+  {
+    "id": 11,
+    "query": "What is the role of the Timer in a Toastmasters meeting?",
+    "relevant_global_ids": [
+      310,
+      31,
+      11,
+      12,
+      13
+    ]
+  }
+//   {
+//     "id": 12,
+//     "query": "What are the responsibilities of the Grammarian?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 13,
+//     "query": "What does the Ah Counter do during a meeting?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 14,
+//     "query": "What is the role of the General Evaluator?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 15,
+//     "query": "What are the duties of the Toastmaster of the Day (TMOD)?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 16,
+//     "query": "What does the Table Topics Master do?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 17,
+//     "query": "What is the role of the Sergeant at Arms?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 18,
+//     "query": "What are the responsibilities of the Club President?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 19,
+//     "query": "What does the Vice President Education (VPE) do?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 20,
+//     "query": "What are the duties of the Club Secretary?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 21,
+//     "query": "What is the role of the Club Treasurer?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 22,
+//     "query": "What does the Vice President Membership do?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 23,
+//     "query": "What are the responsibilities of the Vice President Public Relations?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 24,
+//     "query": "What is the time limit for speeches in the International Speech Contest?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 25,
+//     "query": "What are the eligibility requirements for speech contests?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 26,
+//     "query": "What are the rules for the Humorous Speech Contest?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 27,
+//     "query": "What is the time limit for Table Topics speeches?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 28,
+//     "query": "What are the evaluation criteria in a speech contest?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 29,
+//     "query": "Can non-English speech contests proceed beyond District level?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 30,
+//     "query": "What is the Tall Tales Contest?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 31,
+//     "query": "What are the rules for Online Speech Contests?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 32,
+//     "query": "What are the components of a Toastmasters meeting?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 33,
+//     "query": "What happens during the Table Topics section?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 34,
+//     "query": "How long should speeches typically be in club meetings?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 35,
+//     "query": "What is the purpose of evaluations in Toastmasters?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 36,
+//     "query": "What is an Icebreaker speech?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 37,
+//     "query": "What are Toastmasters Pathways?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 38,
+//     "query": "What are the core competencies in Pathways?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 39,
+//     "query": "How do you complete a Pathway level?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 40,
+//     "query": "What should be included in an Ah Counter report?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 41,
+//     "query": "What is the time limit for the Ah Counter role introduction?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 42,
+//     "query": "What should the Grammarian report include?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 43,
+//     "query": "What are the guidelines for creating an introduction?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 44,
+//     "query": "What should a Timer report include?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 45,
+//     "query": "What is the Club Executive Committee?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 46,
+//     "query": "What are the duties of the Club Executive Committee?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 47,
+//     "query": "What is the Distinguished Club Program?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 48,
+//     "query": "What is the District structure in Toastmasters?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 49,
+//     "query": "What happens at Area Council meetings?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   },
+//   {
+//     "id": 50,
+//     "query": "What is the purpose of Division Council?",
+//     "relevant_global_ids": [
+//       0,
+//       1,
+//       2,
+//       3,
+//       4
+//     ]
+//   }
+]

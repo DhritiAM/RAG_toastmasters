@@ -1,23 +1,18 @@
 [
   {
     "id": 0,
-    "text": "President’s/Presiding Officer’s address\n\nAs a president, you will be speaking in every single meeting. It is essential to tweak your address in every meeting and always try to bring something to look forward to in your address. Your energy while speaking determines the energy of the meeting so do your address with utmost enthusiasm.",
+    "text": "President’s/Presiding Officer’s address\n\nAs a president, you will be speaking in every single meeting. It is essential to tweak your address in every meeting and always try to bring something to look forward to in your address. Your energy while speaking determines the energy of the meeting so do your address with utmost enthusiasm.\n\nWhen the SAA introduces the President/Presiding Officer:\nWelcome everyone\nPass minutes of previous meeting (Few clubs follow it)\nOpen the meeting by with the gavel - “I now open meeting no. 00.. Open (hit the gavel)\n\n*Induction if any by VPM*\n\nTalk about Toastmasters as an organization in general\nAllow Guests to Introduce themselves in quick 30 seconds\nA small inspiring talk (maybe a story related to communication or success or the theme)\nIntroduce the TMOD the host of the meeting\n\nTowards the end when TMOD or TOD hands control back to President/Presiding Officer:",
     "metadata": {
       "source": "..\\data\\extracted\\Presiding officer's Address.txt"
-    }
+    },
+    "global_id": 224
   },
   {
     "id": 1,
-    "text": "When the SAA introduces the President/Presiding Officer:\nWelcome everyone\nPass minutes of previous meeting (Few clubs follow it)\nOpen the meeting by with the gavel - “I now open meeting no. 00.. Open (hit the gavel)\n\n*Induction if any by VPM*\n\nTalk about Toastmasters as an organization in general\nAllow Guests to Introduce themselves in quick 30 seconds\nA small inspiring talk (maybe a story related to communication or success or the theme)\nIntroduce the TMOD the host of the meeting",
-    "metadata": {
-      "source": "..\\data\\extracted\\Presiding officer's Address.txt"
-    }
-  },
-  {
-    "id": 2,
     "text": "Towards the end when TMOD or TOD hands control back to President/Presiding Officer:\n\nSpeak about how the meeting went\nAsk for voting link \nRepeat password (if there is any)\nTake guest testimonials by asking them how they felt about the meeting and any feedback\nMake announcements (if any)\nCall out awards winners and encourage everyone to applaud\nClose the meeting with gavel - “I now adjourn meeting no. 00.. Close (hit the gavel)",
     "metadata": {
       "source": "..\\data\\extracted\\Presiding officer's Address.txt"
-    }
+    },
+    "global_id": 225
   }
 ]

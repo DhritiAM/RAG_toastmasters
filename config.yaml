@@ -16,16 +16,21 @@ rag_pipeline:
   llm_model: "phi3"
   
   # Retrieval settings
-  top_k_retrieve: 10    # Number of chunks to retrieve initially
+  top_k_retrieve: 8    # Number of chunks to retrieve initially
+  
+  # Metadata filtering
+  filters:
+    enable: false       # Enable/disable automatic category-based filtering
+    # When enabled, categories are automatically detected from query keywords
   
   # Reranking settings
   reranker:
-    enable: true
-    top_k: 4            # Number of top chunks to use after reranking
+    enable: false
+    top_k: 5            # Number of top chunks to use after reranking
   
   # Chunking settings (used during ingestion, but kept here for reference)
-  chunk_size: 400       # Default chunk size in characters
-  chunk_overlap: 50     # Default chunk overlap in characters
+  chunk_size: 1000       # Default chunk size in characters
+  chunk_overlap: 100     # Default chunk overlap in characters
   
   # Verbose output
   verbose: false

@@ -9,7 +9,7 @@ import numpy as np
 
 import sys
 import os
-from typing import List, Dict
+from typing import List, Dict, Optional
 from dataclasses import dataclass
 from collections import defaultdict
 
@@ -39,6 +39,9 @@ class RAGEvaluator:
         self.rag: RAG = rag_system
         self.retriever: Retriever = rag_system.retriever
         self.results = []
+        self.retrieval_top_k = getattr(self.rag, "top_k_retrieve", None)
+        self.reranker_enabled = getattr(self.rag, "reranker_enabled", False)
+        self.reranker_top_k = getattr(self.rag, "top_k_rerank", None)
         
         # Load metadata for coverage analysis
         with open(self.rag.metadata_path, 'r', encoding='utf-8') as f:
@@ -47,18 +50,20 @@ class RAGEvaluator:
     def evaluate_retrieval(
         self, 
         test_cases_path: str,
-        k: int = 5
+        k: Optional[int] = None
     ) -> Dict[str, float]:
         """
         Evaluate retrieval quality using test cases
         
         Args:
             test_cases_path: Path to JSON file with test cases containing 'query' and 'relevant_global_ids'
-            k: Number of results to retrieve
+            k: Number of results to retrieve (defaults to config top_k_retrieve)
             
         Returns:
             Dictionary of metrics
         """
+        k = k or self.retrieval_top_k or 5
+
         precisions = []
         recalls = []
         mrrs = []  # Mean Reciprocal Rank
@@ -74,13 +79,19 @@ class RAGEvaluator:
             
             # Time the retrieval
             start = time.time()
-            results = self.retriever.retrieve(query, top_k=k)
+            pipeline_result = self.rag.query(
+                query,
+                top_k_retrieve=k,
+                top_k_rerank=k,
+                generate_response=False
+            )
             retrieval_time = time.time() - start
             retrieval_times.append(retrieval_time)
             
-            # Extract global_ids from retrieved results
-            # The retriever now includes global_id directly in results
-            retrieved_global_ids = [r['global_id'] for r in results if 'global_id' in r]
+            selected_results = pipeline_result.get('selected_results') or []
+            retrieved_global_ids = [
+                r['global_id'] for r in selected_results if 'global_id' in r
+            ]
             
             # Calculate metrics
             relevant_retrieved = set(retrieved_global_ids) & relevant_global_ids
@@ -113,18 +124,20 @@ class RAGEvaluator:
     def evaluate_relevance_distribution(
         self, 
         queries: List[str], 
-        k: int = 5
+        k: Optional[int] = None
     ) -> Dict:
         """
         Analyze the distribution of retrieval scores
         
         Args:
             queries: List of test queries
-            k: Number of results per query
+            k: Number of results per query (defaults to config top_k_retrieve)
             
         Returns:
             Statistics about score distribution
         """
+        k = k or self.retrieval_top_k or 5
+
         all_scores = []
         score_ranges = defaultdict(int)
         
@@ -178,7 +191,7 @@ class RAGEvaluator:
     def evaluate_latency(
         self, 
         queries: List[str], 
-        k: int = 5,
+        k: Optional[int] = None,
         num_runs: int = 10
     ) -> Dict:
         """
@@ -186,12 +199,14 @@ class RAGEvaluator:
         
         Args:
             queries: Test queries
-            k: Number of results to retrieve
+            k: Number of results to retrieve (defaults to config top_k_retrieve)
             num_runs: Number of times to run each query
             
         Returns:
             Latency statistics
         """
+        k = k or self.retrieval_top_k or 5
+
         latencies = []
         
         for query in queries:
@@ -241,6 +256,10 @@ class RAGEvaluator:
         report_lines.append("-" * 80)
         report_lines.append(f"Total Chunks: {coverage['total_chunks']}")
         report_lines.append(f"Total Sources: {coverage['total_sources']}")
+        report_lines.append(f"Retrieval top_k (config): {self.retrieval_top_k or 'default (5)'}")
+        report_lines.append(f"Reranker enabled: {self.reranker_enabled}")
+        if self.reranker_enabled:
+            report_lines.append(f"Reranker top_k (config): {self.reranker_top_k or 'default'}")
         report_lines.append("")
         
         # Coverage evaluation
@@ -254,10 +273,11 @@ class RAGEvaluator:
         # Retrieval evaluation
         report_lines.append("RETRIEVAL QUALITY METRICS")
         report_lines.append("-" * 80)
-        retrieval_metrics = self.evaluate_retrieval(test_cases_path, k=5)
-        report_lines.append(f"Precision@5: {retrieval_metrics['precision@k']:.3f}")
-        report_lines.append(f"Recall@5: {retrieval_metrics['recall@k']:.3f}")
-        report_lines.append(f"F1@5: {retrieval_metrics['f1@k']:.3f}")
+        eval_k = self.retrieval_top_k or 5
+        retrieval_metrics = self.evaluate_retrieval(test_cases_path, k=eval_k)
+        report_lines.append(f"Precision@{eval_k}: {retrieval_metrics['precision@k']:.3f}")
+        report_lines.append(f"Recall@{eval_k}: {retrieval_metrics['recall@k']:.3f}")
+        report_lines.append(f"F1@{eval_k}: {retrieval_metrics['f1@k']:.3f}")
         report_lines.append(f"Mean Reciprocal Rank: {retrieval_metrics['mrr']:.3f}")
         report_lines.append(f"Avg Retrieval Time: {retrieval_metrics['avg_retrieval_time']*1000:.2f}ms")
         report_lines.append("")
