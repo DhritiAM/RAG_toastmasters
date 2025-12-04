@@ -135,6 +135,9 @@ class Retriever:
             if len(results) >= top_k:
                 break
         
+        if len(results) < top_k:
+            print(f"Warning: Only retrieved {len(results)}/{top_k} results after filtering.")
+        
         return results
 
 
