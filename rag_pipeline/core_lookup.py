@@ -1,6 +1,15 @@
 import json
 import os
 import re
+from pathlib import Path
+
+try:
+    from ..utils.paths import REPO_ROOT, resolve_path
+except ImportError:
+    # Fallback for direct imports
+    import sys
+    sys.path.append(str(Path(__file__).parent.parent))
+    from utils.paths import REPO_ROOT, resolve_path
 
 class CoreLookup:
     """
@@ -8,7 +17,11 @@ class CoreLookup:
     Loads pre-written canonical answers from core_knowledge.json.
     """
 
-    def __init__(self, filepath="../data/static/core_knowledge.json"):
+    def __init__(self, filepath=None):
+        if filepath is None:
+            filepath = str(REPO_ROOT / "data/static/core_knowledge.json")
+        else:
+            filepath = str(resolve_path(filepath))
         self.filepath = filepath
         self.data = self._load_json(filepath)
 

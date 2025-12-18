@@ -6,8 +6,32 @@ import time
 import yaml
 from vectorise import vectorize_json_folder
 
-def process_all_pdfs(data_folder, extracted_folder, chunks_folder, vectordb_folder, config_path="../config.yaml"):
+# Import REPO_ROOT for path resolution
+import sys
+sys.path.append(str(Path(__file__).parent.parent))
+from utils.paths import REPO_ROOT, resolve_path
 
+def process_all_pdfs(data_folder=None, extracted_folder=None, chunks_folder=None, vectordb_folder=None, config_path=None):
+
+    # Set default paths relative to REPO_ROOT
+    if data_folder is None:
+        data_folder = str(REPO_ROOT / "data/raw")
+    if extracted_folder is None:
+        extracted_folder = str(REPO_ROOT / "data/extracted")
+    if chunks_folder is None:
+        chunks_folder = str(REPO_ROOT / "data/chunks")
+    if vectordb_folder is None:
+        vectordb_folder = str(REPO_ROOT / "data/vectordb")
+    if config_path is None:
+        config_path = str(REPO_ROOT / "config.yaml")
+    
+    # Resolve all paths
+    data_folder = str(resolve_path(data_folder))
+    extracted_folder = str(resolve_path(extracted_folder))
+    chunks_folder = str(resolve_path(chunks_folder))
+    vectordb_folder = str(resolve_path(vectordb_folder))
+    config_path = str(resolve_path(config_path))
+    
     os.makedirs(extracted_folder, exist_ok=True)
     os.makedirs(chunks_folder, exist_ok=True)
     os.makedirs(vectordb_folder, exist_ok=True)
@@ -57,12 +81,14 @@ def process_all_pdfs(data_folder, extracted_folder, chunks_folder, vectordb_fold
     print("\n All PDFs processed successfully!")
 
     # Step 4: Vectorise
-    index, all_metadata, model = vectorize_json_folder(Path(chunks_folder), 
-    index_file=vectordb_folder+"/vector_index.faiss", metadata_file=vectordb_folder+"/metadata.json")
+    # This creates both the main index (for backward compatibility) and category-specific indices (for latency reduction)
+    index, all_metadata, model, category_indices = vectorize_json_folder(
+        Path(chunks_folder), 
+        index_file=vectordb_folder+"/vector_index.faiss", 
+        metadata_file=vectordb_folder+"/metadata.json",
+        create_category_indices=True  # Enable category-specific indices for latency reduction
+    )
 
 if __name__ == "__main__":
-    data_folder = "../data/raw"
-    extracted_folder = "../data/extracted"
-    chunks_folder = "../data/chunks"
-    vectordb_folder = "../data/vectordb"
-    process_all_pdfs(data_folder, extracted_folder, chunks_folder, vectordb_folder)
+    # Use default paths (relative to REPO_ROOT)
+    process_all_pdfs()

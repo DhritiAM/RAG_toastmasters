@@ -2,26 +2,15 @@
 TOASTMASTERS RAG SYSTEM - EVALUATION REPORT
 ================================================================================
 
-SYSTEM STATISTICS
---------------------------------------------------------------------------------
-Total Chunks: 323
-Total Sources: 13
-Retrieval top_k (config): 8
-Reranker enabled: False
-
-KNOWLEDGE BASE COVERAGE
---------------------------------------------------------------------------------
-Sources: 13
-Chunks per source (avg): 24.8
-Balance score: 1.533 (lower is better)
-
 RETRIEVAL QUALITY METRICS
 --------------------------------------------------------------------------------
-Precision@8: 0.284
-Recall@8: 0.765
-F1@8: 0.414
-Mean Reciprocal Rank: 0.771
-Avg Retrieval Time: 35.12ms
+Evaluation using k=5 (top_k_retrieve)
+Reranker enabled: False
+Precision@5: 0.273
+Recall@5: 0.502
+F1@5: 0.353
+Mean Reciprocal Rank: 0.758
+Avg Retrieval Time: 39.86ms
 
 ================================================================================
 END OF REPORT

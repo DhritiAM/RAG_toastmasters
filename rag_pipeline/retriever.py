@@ -1,10 +1,12 @@
 import faiss
 import json
 import numpy as np
-from typing import Optional, List, Dict, Set
+import os
+from typing import Optional, List, Dict
 
 class Retriever:
     def __init__(self, index_path, metadata_path, model, chunks_path, filters: Optional[Dict] = None):
+        # Load main index (for backward compatibility and fallback)
         self.index = faiss.read_index(index_path)
         with open(metadata_path) as f:
             self.metadata = json.load(f)
@@ -15,9 +17,11 @@ class Retriever:
         self.filters = filters or {}
         self.filter_enabled = self.filters.get('enable', False)
         
-        # Pre-compute category mappings for faster filtering
+        # Load category-specific indices for latency reduction
+        self.category_indices = {}
+        self.category_metadata = {}
         if self.filter_enabled:
-            self.category_to_global_ids = self._compute_category_mappings()
+            self._load_category_indices(index_path, metadata_path)
     
     def _infer_category_from_query(self, query: str) -> Optional[str]:
         """
@@ -49,37 +53,34 @@ class Retriever:
         
         return None  # No specific category detected
     
-    def _compute_category_mappings(self) -> Dict[str, Set[int]]:
-        """Pre-compute which global_ids belong to each category"""
-        category_map = {}
-        for entry in self.metadata:
-            category = entry.get('category')
-            if category:
-                if category not in category_map:
-                    category_map[category] = set()
-                category_map[category].add(entry['global_id'])
-        return category_map
-    
-    def _get_allowed_global_ids_for_category(self, category: str) -> Set[int]:
-        """Get allowed global_ids for a specific category"""
-        if not self.filter_enabled or category is None:
-            return None  # No filtering
+    def _load_category_indices(self, index_path: str, metadata_path: str):
+        """Load category-specific indices if they exist for latency reduction"""
+        base_dir = os.path.dirname(index_path)
+        categories = ["Role", "Eval", "Leadership", "Contest", "Generic"]
         
-        if self.category_to_global_ids and category in self.category_to_global_ids:
-            return self.category_to_global_ids[category]
+        for category in categories:
+            cat_index_path = os.path.join(base_dir, f"vector_index_{category}.faiss")
+            cat_metadata_path = os.path.join(base_dir, f"metadata_{category}.json")
+            
+            if os.path.exists(cat_index_path) and os.path.exists(cat_metadata_path):
+                try:
+                    self.category_indices[category] = faiss.read_index(cat_index_path)
+                    with open(cat_metadata_path, "r", encoding="utf-8") as f:
+                        self.category_metadata[category] = json.load(f)
+                    print(f"Loaded category index for '{category}' ({len(self.category_metadata[category])} chunks)")
+                except Exception as e:
+                    print(f"Warning: Could not load category index for '{category}': {e}")
         
-        return set()  # Category not found, return empty set
-    
-    def _matches_filter(self, global_id: int, allowed_ids: Optional[Set[int]]) -> bool:
-        """Check if a global_id matches the current filter criteria"""
-        if not self.filter_enabled or allowed_ids is None:
-            return True
-        
-        return global_id in allowed_ids
+        if self.category_indices:
+            print(f"Category-specific indices loaded: {len(self.category_indices)} categories available for latency reduction")
         
     def retrieve(self, query, top_k=5, apply_filters: bool = True):
         """
         Retrieve chunks for a query, optionally applying metadata filters.
+        
+        LATENCY REDUCTION: If category-specific indices are available and filtering is enabled,
+        this method will search only the relevant category's index (much smaller), significantly
+        reducing search latency compared to searching the full index.
         
         Args:
             query: The search query
@@ -87,56 +88,58 @@ class Retriever:
             apply_filters: Whether to apply metadata filters (default: True)
         """
         # Detect category from query if filtering is enabled
-        allowed_ids = None
         detected_category = None
+        use_category_index = False
+        
         if apply_filters and self.filter_enabled:
             detected_category = self._infer_category_from_query(query)
-            allowed_ids = self._get_allowed_global_ids_for_category(detected_category)
-            if self.filter_enabled and detected_category:
-                print(f"\nDetected category from query: {detected_category}")
+            # Use category index if available and category detected
+            if detected_category and detected_category in self.category_indices:
+                use_category_index = True
+                if self.filter_enabled:
+                    print(f"\nDetected category: {detected_category} - Using category-specific index for latency reduction")
         
-        # If filtering is enabled, we need to retrieve more candidates to account for filtering
-        retrieve_k = top_k
-        if apply_filters and self.filter_enabled and allowed_ids is not None:
-            # Retrieve more candidates to ensure we get enough after filtering
-            # Estimate: if filter reduces by 50%, retrieve 2x; if 90%, retrieve 10x
-            filter_ratio = len(allowed_ids) / len(self.metadata) if self.metadata else 1.0
-            if filter_ratio < 1.0:
-                retrieve_k = min(int(top_k / max(filter_ratio, 0.1)), len(self.metadata))
-        
+        # Encode query
         query_emb = self.model.encode([query])
         faiss.normalize_L2(query_emb)
-        similarities, ids = self.index.search(query_emb, retrieve_k)
+        
+        # Search category-specific index (LATENCY REDUCTION) or main index
+        if use_category_index:
+            # Search only the relevant category's index - MUCH FASTER!
+            cat_index = self.category_indices[detected_category]
+            cat_metadata = self.category_metadata[detected_category]
+            similarities, ids = cat_index.search(query_emb, top_k)
+            metadata_to_use = cat_metadata
+            print(f"  Searched {len(cat_metadata)} vectors (category index) vs {len(self.metadata)} (full index)")
+        else:
+            # Fall back to main index (no category detected or filtering disabled)
+            similarities, ids = self.index.search(query_emb, top_k)
+            metadata_to_use = self.metadata
+            if apply_filters and self.filter_enabled and detected_category:
+                print(f"  Searched full index ({len(self.metadata)} vectors) - category index not available")
+            elif not apply_filters or not self.filter_enabled:
+                print(f"  Searched full index ({len(self.metadata)} vectors) - filtering disabled")
 
         print("\n\n ids:",ids)
         print("\n\n similarities:",similarities)
         
         results = []
         for i, idx in enumerate(ids[0]):
-            global_id = self.metadata[idx]["global_id"]
+            meta_entry = metadata_to_use[idx]
+            global_id = meta_entry["global_id"]
             
-            # Apply filter if enabled
-            if apply_filters and not self._matches_filter(global_id, allowed_ids):
-                continue
-            
-            with open(self.chunks_path+"/"+self.metadata[idx]["source_file"], "r", encoding="utf-8") as f:
+            chunk_file_path = os.path.join(self.chunks_path, meta_entry["source_file"])
+            with open(chunk_file_path, "r", encoding="utf-8") as f:
                 chunks_file = json.load(f)
-                text = chunks_file[self.metadata[idx]["chunk_id"]]["text"]
+                text = chunks_file[meta_entry["chunk_id"]]["text"]
 
             results.append({
-                "text": self.metadata[idx]["source_file"],
-                "chunk_id": self.metadata[idx]["chunk_id"],
+                "text": meta_entry["source_file"],
+                "chunk_id": meta_entry["chunk_id"],
                 "global_id": global_id,
                 "score": float(similarities[0][i]),
                 "text_info": text
             })
-            
-            # Stop once we have enough results
-            if len(results) >= top_k:
-                break
-        
-        if len(results) < top_k:
-            print(f"Warning: Only retrieved {len(results)}/{top_k} results after filtering.")
         
         return results
 

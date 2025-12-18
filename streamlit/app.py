@@ -2,11 +2,13 @@ import streamlit as st
 import json
 import os
 import sys
+from pathlib import Path
 from feedback_db import init_db, save_feedback
 
 # Add parent directory to path to import RAG pipeline
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from rag_pipeline.main import RAG
+from utils.paths import REPO_ROOT, resolve_path
 
 # Initialize database
 init_db()
@@ -14,14 +16,14 @@ init_db()
 # Initialize RAG pipeline (cache in session_state to avoid reloading on every rerun)
 if "rag" not in st.session_state:
     with st.spinner("Loading RAG pipeline..."):
-        config_path = os.path.join(os.path.dirname(__file__), "..", "config.yaml")
+        config_path = str(REPO_ROOT / "config.yaml")
         st.session_state.rag = RAG(config_path=config_path, verbose=False)
 
 st.title("TM Knowledge Assistant ✨")
 st.write("Ask anything or try a suggested question!")
 
 # Load suggestions from local JSON file
-json_path = os.path.join(os.path.dirname(__file__), "suggested_questions.json")
+json_path = str(Path(__file__).parent / "suggested_questions.json")
 with open(json_path, "r", encoding="utf-8") as f:
     suggestions = json.load(f)["suggestions"]
 

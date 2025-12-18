@@ -2,6 +2,15 @@ from sentence_transformers import SentenceTransformer
 from typing import Optional, List, Dict
 import os
 import yaml
+from pathlib import Path
+
+try:
+    from ..utils.paths import REPO_ROOT, resolve_path
+except ImportError:
+    # Fallback for direct imports
+    import sys
+    sys.path.append(str(Path(__file__).parent.parent))
+    from utils.paths import REPO_ROOT, resolve_path
 
 try:
     from .retriever import Retriever
@@ -31,7 +40,7 @@ class RAG:
     
     def __init__(
         self,
-        config_path: Optional[str] = "../config.yaml",
+        config_path: Optional[str] = None,
         index_path: Optional[str] = None,
         metadata_path: Optional[str] = None,
         chunks_path: Optional[str] = None,
@@ -71,6 +80,13 @@ class RAG:
         """
         # Load config from YAML file
         config = {}
+        # Default config path relative to REPO_ROOT
+        if config_path is None:
+            config_path = str(REPO_ROOT / "config.yaml")
+        else:
+            # Resolve relative paths to REPO_ROOT
+            config_path = str(resolve_path(config_path))
+        
         if config_path is not None:
             # If config_path is explicitly provided, it must exist
             if not os.path.exists(config_path):
@@ -100,14 +116,20 @@ class RAG:
         else:
             self.top_k_rerank = None
         
-        # Set paths and model names
-        index_path = index_path or config.get('index_path', "../data/vectordb/vector_index.faiss")
-        metadata_path = metadata_path or config.get('metadata_path', "../data/vectordb/metadata.json")
-        chunks_path = chunks_path or config.get('chunks_path', "../data/chunks")
+        # Set paths and model names - resolve all paths relative to REPO_ROOT
+        index_path = index_path or config.get('index_path', "data/vectordb/vector_index.faiss")
+        metadata_path = metadata_path or config.get('metadata_path', "data/vectordb/metadata.json")
+        chunks_path = chunks_path or config.get('chunks_path', "data/chunks")
         embedding_model_name = embedding_model_name or config.get('embedding_model', "all-MiniLM-L6-v2")
         reranker_model_name = reranker_model_name or config.get('reranker_model', "cross-encoder/ms-marco-MiniLM-L-6-v2")
         llm_model_name = llm_model_name or config.get('llm_model', "phi3")
-        core_knowledge_path = core_knowledge_path or config.get('core_knowledge_path', "../data/static/core_knowledge.json")
+        core_knowledge_path = core_knowledge_path or config.get('core_knowledge_path', "data/static/core_knowledge.json")
+        
+        # Resolve all paths to absolute paths
+        index_path = str(resolve_path(index_path))
+        metadata_path = str(resolve_path(metadata_path))
+        chunks_path = str(resolve_path(chunks_path))
+        core_knowledge_path = str(resolve_path(core_knowledge_path))
         
         # Store chunk settings for reference (used during ingestion)
         self.chunk_size = config.get('chunk_size', 400)
@@ -117,6 +139,9 @@ class RAG:
         self.index_path = index_path
         self.metadata_path = metadata_path
         self.chunks_path = chunks_path
+        
+        # Store config for later use (e.g., LLM settings in query method)
+        self.config = config
         
         # Load filter configuration
         filters_config = config.get('filters', {})
@@ -155,7 +180,15 @@ class RAG:
             print("Reranker disabled via config; skipping reranker initialization.")
         
         # Initialize LLM generator
-        self.generator = LocalLLMGenerator(model_name=llm_model_name)
+        # API key is ONLY read from environment variable for security
+        llm_config = config.get('openai', {})
+        api_key = os.getenv('OPENAI_API_KEY')  # Only from environment, never from config
+        base_url = llm_config.get('base_url') if llm_config.get('base_url') else None
+        self.generator = LocalLLMGenerator(
+            model_name=llm_model_name,
+            api_key=api_key,
+            base_url=base_url
+        )
         
         if self.verbose:
             print("RAG pipeline initialized successfully!")
@@ -294,7 +327,11 @@ class RAG:
                 if self.verbose:
                     print("Generating response with LLM...")
                 prompt = self._build_rag_prompt(query, selected_chunks)
-                response = self.generator.generate(prompt)
+                # Get LLM config for temperature and max_tokens
+                llm_config = self.config.get('openai', {})
+                temperature = llm_config.get('temperature', 0.7)
+                max_tokens = llm_config.get('max_tokens')
+                response = self.generator.generate(prompt, temperature=temperature, max_tokens=max_tokens)
             
             return {
                 "response": response,
